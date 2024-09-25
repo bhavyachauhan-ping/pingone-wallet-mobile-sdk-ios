@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
 // swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name PingOneWallet
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AnyCoder
 import CommunicationManager
 import CryptoTools
@@ -49,7 +50,7 @@ extension PingOneWallet.PingOneWalletClient {
     @discardableResult
     public func setWalletCallbackHandler(_ walletCallbackHandler: any PingOneWallet.WalletCallbackHandler) -> PingOneWallet.PingOneWalletClient.Builder
     @discardableResult
-    public func setPushToken(_ pushToken: Foundation.Data) -> PingOneWallet.PingOneWalletClient.Builder
+    public func setPushToken(_ pushToken: Foundation.Data, isSandbox: Swift.Bool = false) -> PingOneWallet.PingOneWalletClient.Builder
     public func build() -> DIDSDK.CompletionHandler<PingOneWallet.PingOneWalletClient>
     @objc deinit
   }
@@ -115,7 +116,7 @@ public enum CredentialAction : Swift.String, Swift.Codable {
     get
   }
 }
-@_hasMissingDesignatedInitializers public class StorageManager : PingOneWallet.StorageManagerContract {
+@_hasMissingDesignatedInitializers public class WalletEncryptedStorageManager : PingOneWallet.StorageManagerContract {
   public static func initialize(errorHandler: (any PingOneWallet.StorageErrorHandler)?) -> DIDSDK.CompletionHandler<any PingOneWallet.StorageManagerContract>
   public func setStorageErrorHandler(_ storageErrorHandler: any PingOneWallet.StorageErrorHandler)
   public func getStorageErrorHandler() -> (any PingOneWallet.StorageErrorHandler)?
@@ -212,11 +213,15 @@ public struct StorageKeys {
   public func getStorageManager() -> (any PingOneWallet.StorageManagerContract)!
   public func getDataRepository() -> PingOneWallet.DataRepository!
   public func registerCallbackHandler(_ callbackHandler: any PingOneWallet.WalletCallbackHandler)
-  public func pairWallet(for pairingRequest: PingOneWallet.PairingRequest, pushToken: Foundation.Data? = nil) -> DIDSDK.CompletionHandler<DIDSDK.ApplicationInstance>
+  public func pairWallet(for pairingRequest: PingOneWallet.PairingRequest, pushToken: Foundation.Data? = nil, isSandbox: Swift.Bool? = nil) -> DIDSDK.CompletionHandler<DIDSDK.ApplicationInstance>
   @available(*, deprecated, renamed: "pairWallet", message: "This method is deprecated and will be removed in upcoming updates. Use other pairWallet that accepts PairingRequest as a param instead")
-  public func pairWallet(for presentationRequest: PingOneWallet.PresentationRequest, pushToken: Swift.String? = nil) -> DIDSDK.CompletionHandler<DIDSDK.ApplicationInstance>
+  public func pairWallet(for presentationRequest: PingOneWallet.PresentationRequest, pushToken: Swift.String? = nil, isSandbox: Swift.Bool? = nil) -> DIDSDK.CompletionHandler<DIDSDK.ApplicationInstance>
   @discardableResult
-  public func updatePushTokens(_ pushToken: Foundation.Data) -> [DIDSDK.ApplicationInstance]
+  public func updatePushTokens(_ pushToken: Foundation.Data, isSandbox: Swift.Bool = false) -> [DIDSDK.ApplicationInstance]
+  @discardableResult
+  public func updatePushNotificationToken(_ pushToken: Foundation.Data, isSandbox: Swift.Bool = false) -> DIDSDK.CompletionHandler<Swift.Bool>
+  @discardableResult
+  public func disablePush() -> DIDSDK.CompletionHandler<Swift.Bool>
   @available(*, deprecated, renamed: "processPingOneRequest", message: "This method is deprecated and will be removed in upcoming updates. Use processPingOneRequest instead")
   public func processQrContent(_ qrContent: Swift.String)
   public func processPingOneRequest(_ request: Swift.String)
@@ -285,6 +290,7 @@ public struct PingOneRegion : Swift.Hashable, Swift.Codable {
   public static let CA: PingOneWallet.PingOneRegion
   public static func initForUrl(_ requestUrl: Swift.String) -> PingOneWallet.PingOneRegion
   public func getKey() -> Swift.String
+  public func getUrl() -> Swift.String
   public static func == (lhs: PingOneWallet.PingOneRegion, rhs: PingOneWallet.PingOneRegion) -> Swift.Bool
   public static func getRegionForHost(_ host: Swift.String) -> PingOneWallet.PingOneRegion?
   public func hash(into hasher: inout Swift.Hasher)
@@ -310,6 +316,8 @@ public enum WalletException : Swift.Error, Foundation.LocalizedError {
   case cannotInitDidClient(debugDescription: Swift.String)
   case cannotDetermineRegion(debugDescription: Swift.String)
   case cannotShareInformation(underlyingErrors: [any Swift.Error])
+  case failedToUpdateApplicationInstance(id: Swift.String, debugDescription: Swift.String)
+  case cannotUpdateApplicationInstances(underlyingErrors: [any Swift.Error])
   case mustInitClientWithApplicationInstance(debugDescription: Swift.String)
   public var claimError: DIDSDK.ClaimError? {
     get
@@ -394,6 +402,12 @@ public enum PairingError : Swift.String, Swift.Error, Foundation.LocalizedError,
   public var rawValue: Swift.String {
     get
   }
+}
+public struct PushNotificationBody : Swift.Codable {
+  public var credentialId: Swift.String
+  public var credentialName: Swift.String
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 public func logLine(_ message: Any, fileName: Swift.String = #fileID, functionName: Swift.String = #function, lineNumber: Swift.Int = #line)
 public func log(_ message: Any, fileName: Swift.String = #fileID, functionName: Swift.String = #function, lineNumber: Swift.Int = #line)

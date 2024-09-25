@@ -29,13 +29,22 @@ public class PingOneWalletHelper {
         
     static let TOAST_DURATION: TimeInterval = 2.0
     static let LaunchOptionsUserActivityKey: String = "UIApplicationLaunchOptionsUserActivityKey"
+    public static let PUSH_DISABLED_KEY = "push_disabled"
+    public static let POLLING_ENABLED_KEY = "polling_enabled"
     
     private let pingoneWalletClient: PingOneWalletClient!
     private var applicationUiCallbackHandler: ApplicationUiCallbackHandler?
     private var credentialPicker: CredentialPicker?
     
     /// Set this to true if push notifications are not configured in your app
-    public var enablePolling: Bool = true
+    public var enablePolling: Bool {
+        get {
+            return UserDefaults.standard.bool(forKey: PingOneWalletHelper.POLLING_ENABLED_KEY)
+        }
+        set {
+            UserDefaults.standard.setValue(newValue, forKey: PingOneWalletHelper.POLLING_ENABLED_KEY)
+        }
+    }
     
     init(_ pingoneWalletClient: PingOneWalletClient) {
         self.pingoneWalletClient = pingoneWalletClient
@@ -55,11 +64,13 @@ public class PingOneWalletHelper {
     
     /// Call this method to start polling for new messages sent to the wallet. Use this method only if you are not using push notifications.
     public func pollForMessages() {
+        self.enablePolling = true
         self.pingoneWalletClient.pollForMessages()
     }
     
     /// Call this method to stop polling for messages sent to the wallet.
     public func stopPolling() {
+        self.enablePolling = false
         self.pingoneWalletClient.stopPolling()
     }
     
@@ -78,7 +89,40 @@ public class PingOneWalletHelper {
     /// Set the push token for the device to be able to receive push notifications.
     /// - Parameter pushToken: Push Token
     public func updatePushToken(_ pushToken: Data) {
-        self.pingoneWalletClient.updatePushTokens(pushToken)
+        var pushSandBox = false
+        #if DEBUG
+        pushSandBox = true
+        #endif
+        
+        self.pingoneWalletClient.updatePushNotificationToken(pushToken, isSandbox: pushSandBox)
+            .onResult { isSuccessful in
+                log("Push token update \(isSuccessful ? "successful": "failed"), pushSandbox: \(pushSandBox)")
+            }
+            .onError { error in
+                logerror("Push token update failed - \(error.localizedDescription)")
+            }
+    }
+    
+    /// This method enables push notifications for the app and updates the token with backend if it is not disabled in settings
+    public func enablePush() {
+        UserDefaults.standard.set(false, forKey: PingOneWalletHelper.PUSH_DISABLED_KEY)
+        if let pushToken = (UIApplication.shared.delegate as? AppDelegate)?.pnToken {
+            self.updatePushToken(pushToken)
+        }
+    }
+    
+    /// This method disables push notifications for the app and notifies backend about the change
+    public func disablePush() {
+        UserDefaults.standard.set(true, forKey: PingOneWalletHelper.PUSH_DISABLED_KEY)
+        self.pingoneWalletClient.disablePush()
+            .onResult { isSuccessful in
+                log("Push disabled - \(isSuccessful)")
+                self.applicationUiCallbackHandler?.showToast(message: "\(isSuccessful ? "Push Disabled" : "Failed to disable push")", hideAfter: Self.TOAST_DURATION)
+            }
+            .onError { error in
+                logerror("Disabling push failed - \(error.localizedDescription)")
+                self.applicationUiCallbackHandler?.showToast(message: "Failed to disable push", hideAfter: Self.TOAST_DURATION)
+            }
     }
     
     /// Call this method to handle the cases where app is opened by clocking on a URL or push notification.
@@ -127,6 +171,15 @@ public class PingOneWalletHelper {
         return self.pingoneWalletClient.getDataRepository()
     }
     
+    /// Delete all the credentials from storage
+    public func deleteAllCreds() {
+        self.getDataRepository().getAllCredentials().forEach { cred in
+            self.getDataRepository().deleteCredential(forId: cred.getId())
+            self.reportCredentialDeletion(cred)
+        }
+        EventObserverUtils.broadcastCredentialsUpdatedNotification(delayBy: 1)
+    }
+
 }
 
 /// Extension to implement WalletCallbackHandler
@@ -308,6 +361,8 @@ extension PingOneWalletHelper {
     
     private func handleErrorEvent(_ errorEvent: WalletError) {
         switch errorEvent.getError() {
+        case .cannotParseRequest(_):
+            self.notifyUser(message: "Failed to process request")
         case .cannotProcessUrl(let url, let debugDescription):
             logerror("Failed to process url: \(url) - \(debugDescription ?? "None")")
             self.notifyUser(message: "Failed to process request")

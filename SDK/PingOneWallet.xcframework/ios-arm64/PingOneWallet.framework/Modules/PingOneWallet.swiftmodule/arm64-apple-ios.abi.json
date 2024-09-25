@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "PingOneWallet",
+    "printedName": "PingOneWallet",
     "children": [
       {
         "kind": "Import",
@@ -525,6 +525,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "WalletEvent",
             "printedName": "WalletEvent",
             "usr": "s:13PingOneWallet0C5EventP",
@@ -637,7 +651,23 @@
           "AccessControl",
           "RawDocComment"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -805,6 +835,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -1155,6 +1201,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -1517,6 +1579,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "WalletEvent",
@@ -1916,6 +1992,22 @@
         "moduleName": "PingOneWallet",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -2070,7 +2162,23 @@
           "AccessControl",
           "RawDocComment"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -2207,6 +2315,20 @@
         ],
         "enumRawTypeName": "String",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -2386,6 +2508,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -2462,8 +2598,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "StorageManager",
-        "printedName": "StorageManager",
+        "name": "WalletEncryptedStorageManager",
+        "printedName": "WalletEncryptedStorageManager",
         "children": [
           {
             "kind": "Function",
@@ -2500,8 +2636,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:13PingOneWallet14StorageManagerC10initialize12errorHandler6DIDSDK010CompletionH0CyAA0dE8Contract_pGAA0d5ErrorH0_pSg_tFZ",
-            "mangledName": "$s13PingOneWallet14StorageManagerC10initialize12errorHandler6DIDSDK010CompletionH0CyAA0dE8Contract_pGAA0d5ErrorH0_pSg_tFZ",
+            "usr": "s:13PingOneWallet0C23EncryptedStorageManagerC10initialize12errorHandler6DIDSDK010CompletionI0CyAA0eF8Contract_pGAA0e5ErrorI0_pSg_tFZ",
+            "mangledName": "$s13PingOneWallet0C23EncryptedStorageManagerC10initialize12errorHandler6DIDSDK010CompletionI0CyAA0eF8Contract_pGAA0e5ErrorI0_pSg_tFZ",
             "moduleName": "PingOneWallet",
             "static": true,
             "declAttributes": [
@@ -2529,8 +2665,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:13PingOneWallet14StorageManagerC03setD12ErrorHandleryyAA0dgH0_pF",
-            "mangledName": "$s13PingOneWallet14StorageManagerC03setD12ErrorHandleryyAA0dgH0_pF",
+            "usr": "s:13PingOneWallet0C23EncryptedStorageManagerC03setE12ErrorHandleryyAA0ehI0_pF",
+            "mangledName": "$s13PingOneWallet0C23EncryptedStorageManagerC03setE12ErrorHandleryyAA0ehI0_pF",
             "moduleName": "PingOneWallet",
             "declAttributes": [
               "AccessControl",
@@ -2559,8 +2695,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:13PingOneWallet14StorageManagerC03getD12ErrorHandlerAA0dgH0_pSgyF",
-            "mangledName": "$s13PingOneWallet14StorageManagerC03getD12ErrorHandlerAA0dgH0_pSgyF",
+            "usr": "s:13PingOneWallet0C23EncryptedStorageManagerC03getE12ErrorHandlerAA0ehI0_pSgyF",
+            "mangledName": "$s13PingOneWallet0C23EncryptedStorageManagerC03getE12ErrorHandlerAA0ehI0_pSgyF",
             "moduleName": "PingOneWallet",
             "declAttributes": [
               "AccessControl",
@@ -2589,8 +2725,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:13PingOneWallet14StorageManagerC22getApplicationInstance6DIDSDK0gH0CSgyF",
-            "mangledName": "$s13PingOneWallet14StorageManagerC22getApplicationInstance6DIDSDK0gH0CSgyF",
+            "usr": "s:13PingOneWallet0C23EncryptedStorageManagerC22getApplicationInstance6DIDSDK0hI0CSgyF",
+            "mangledName": "$s13PingOneWallet0C23EncryptedStorageManagerC22getApplicationInstance6DIDSDK0hI0CSgyF",
             "moduleName": "PingOneWallet",
             "deprecated": true,
             "declAttributes": [
@@ -2623,8 +2759,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:13PingOneWallet14StorageManagerC23saveApplicationInstance9forRegion011applicationH0yAA0abJ0V_6DIDSDK0gH0CtF",
-            "mangledName": "$s13PingOneWallet14StorageManagerC23saveApplicationInstance9forRegion011applicationH0yAA0abJ0V_6DIDSDK0gH0CtF",
+            "usr": "s:13PingOneWallet0C23EncryptedStorageManagerC23saveApplicationInstance9forRegion011applicationI0yAA0abK0V_6DIDSDK0hI0CtF",
+            "mangledName": "$s13PingOneWallet0C23EncryptedStorageManagerC23saveApplicationInstance9forRegion011applicationI0yAA0abK0V_6DIDSDK0hI0CtF",
             "moduleName": "PingOneWallet",
             "declAttributes": [
               "AccessControl",
@@ -2659,8 +2795,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:13PingOneWallet14StorageManagerC22getApplicationInstance9forRegion6DIDSDK0gH0CSgAA0abJ0V_tF",
-            "mangledName": "$s13PingOneWallet14StorageManagerC22getApplicationInstance9forRegion6DIDSDK0gH0CSgAA0abJ0V_tF",
+            "usr": "s:13PingOneWallet0C23EncryptedStorageManagerC22getApplicationInstance9forRegion6DIDSDK0hI0CSgAA0abK0V_tF",
+            "mangledName": "$s13PingOneWallet0C23EncryptedStorageManagerC22getApplicationInstance9forRegion6DIDSDK0hI0CSgAA0abK0V_tF",
             "moduleName": "PingOneWallet",
             "declAttributes": [
               "AccessControl",
@@ -2686,8 +2822,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:13PingOneWallet14StorageManagerC9saveClaimyy6DIDSDK0G0CF",
-            "mangledName": "$s13PingOneWallet14StorageManagerC9saveClaimyy6DIDSDK0G0CF",
+            "usr": "s:13PingOneWallet0C23EncryptedStorageManagerC9saveClaimyy6DIDSDK0H0CF",
+            "mangledName": "$s13PingOneWallet0C23EncryptedStorageManagerC9saveClaimyy6DIDSDK0H0CF",
             "moduleName": "PingOneWallet",
             "declAttributes": [
               "AccessControl",
@@ -2722,8 +2858,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:13PingOneWallet14StorageManagerC8getClaim7claimId6DIDSDK0G0CSgSS_tF",
-            "mangledName": "$s13PingOneWallet14StorageManagerC8getClaim7claimId6DIDSDK0G0CSgSS_tF",
+            "usr": "s:13PingOneWallet0C23EncryptedStorageManagerC8getClaim7claimId6DIDSDK0H0CSgSS_tF",
+            "mangledName": "$s13PingOneWallet0C23EncryptedStorageManagerC8getClaim7claimId6DIDSDK0H0CSgSS_tF",
             "moduleName": "PingOneWallet",
             "declAttributes": [
               "AccessControl",
@@ -2749,8 +2885,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:13PingOneWallet14StorageManagerC18saveClaimReferenceyy6DIDSDK0gH0CF",
-            "mangledName": "$s13PingOneWallet14StorageManagerC18saveClaimReferenceyy6DIDSDK0gH0CF",
+            "usr": "s:13PingOneWallet0C23EncryptedStorageManagerC18saveClaimReferenceyy6DIDSDK0hI0CF",
+            "mangledName": "$s13PingOneWallet0C23EncryptedStorageManagerC18saveClaimReferenceyy6DIDSDK0hI0CF",
             "moduleName": "PingOneWallet",
             "declAttributes": [
               "AccessControl",
@@ -2785,8 +2921,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:13PingOneWallet14StorageManagerC17getClaimReference05claimH2Id6DIDSDK0gH0CSgSS_tF",
-            "mangledName": "$s13PingOneWallet14StorageManagerC17getClaimReference05claimH2Id6DIDSDK0gH0CSgSS_tF",
+            "usr": "s:13PingOneWallet0C23EncryptedStorageManagerC17getClaimReference05claimI2Id6DIDSDK0hI0CSgSS_tF",
+            "mangledName": "$s13PingOneWallet0C23EncryptedStorageManagerC17getClaimReference05claimI2Id6DIDSDK0hI0CSgSS_tF",
             "moduleName": "PingOneWallet",
             "declAttributes": [
               "AccessControl",
@@ -2812,8 +2948,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:13PingOneWallet14StorageManagerC11deleteClaimyySSF",
-            "mangledName": "$s13PingOneWallet14StorageManagerC11deleteClaimyySSF",
+            "usr": "s:13PingOneWallet0C23EncryptedStorageManagerC11deleteClaimyySSF",
+            "mangledName": "$s13PingOneWallet0C23EncryptedStorageManagerC11deleteClaimyySSF",
             "moduleName": "PingOneWallet",
             "declAttributes": [
               "AccessControl",
@@ -2853,8 +2989,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:13PingOneWallet14StorageManagerC13saveStringSet_3forySaySSG_SStF",
-            "mangledName": "$s13PingOneWallet14StorageManagerC13saveStringSet_3forySaySSG_SStF",
+            "usr": "s:13PingOneWallet0C23EncryptedStorageManagerC13saveStringSet_3forySaySSG_SStF",
+            "mangledName": "$s13PingOneWallet0C23EncryptedStorageManagerC13saveStringSet_3forySaySSG_SStF",
             "moduleName": "PingOneWallet",
             "declAttributes": [
               "AccessControl",
@@ -2889,8 +3025,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:13PingOneWallet14StorageManagerC12getStringSet3forSaySSGSS_tF",
-            "mangledName": "$s13PingOneWallet14StorageManagerC12getStringSet3forSaySSGSS_tF",
+            "usr": "s:13PingOneWallet0C23EncryptedStorageManagerC12getStringSet3forSaySSGSS_tF",
+            "mangledName": "$s13PingOneWallet0C23EncryptedStorageManagerC12getStringSet3forSaySSGSS_tF",
             "moduleName": "PingOneWallet",
             "declAttributes": [
               "AccessControl",
@@ -2922,8 +3058,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:13PingOneWallet14StorageManagerC10saveString_3forySS_SStF",
-            "mangledName": "$s13PingOneWallet14StorageManagerC10saveString_3forySS_SStF",
+            "usr": "s:13PingOneWallet0C23EncryptedStorageManagerC10saveString_3forySS_SStF",
+            "mangledName": "$s13PingOneWallet0C23EncryptedStorageManagerC10saveString_3forySS_SStF",
             "moduleName": "PingOneWallet",
             "declAttributes": [
               "AccessControl",
@@ -2958,8 +3094,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:13PingOneWallet14StorageManagerC9getString3forSSSgSS_tF",
-            "mangledName": "$s13PingOneWallet14StorageManagerC9getString3forSSSgSS_tF",
+            "usr": "s:13PingOneWallet0C23EncryptedStorageManagerC9getString3forSSSgSS_tF",
+            "mangledName": "$s13PingOneWallet0C23EncryptedStorageManagerC9getString3forSSSgSS_tF",
             "moduleName": "PingOneWallet",
             "declAttributes": [
               "AccessControl",
@@ -2969,8 +3105,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "s:13PingOneWallet14StorageManagerC",
-        "mangledName": "$s13PingOneWallet14StorageManagerC",
+        "usr": "s:13PingOneWallet0C23EncryptedStorageManagerC",
+        "mangledName": "$s13PingOneWallet0C23EncryptedStorageManagerC",
         "moduleName": "PingOneWallet",
         "declAttributes": [
           "AccessControl",
@@ -2978,6 +3114,20 @@
         ],
         "hasMissingDesignatedInitializers": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "StorageManagerContract",
@@ -3705,6 +3855,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -3833,7 +3999,23 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -4280,6 +4462,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "WalletEvent",
@@ -4816,6 +5012,22 @@
         "moduleName": "PingOneWallet",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -4938,7 +5150,23 @@
           "AccessControl",
           "RawDocComment"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -4968,6 +5196,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -5415,6 +5659,22 @@
         "moduleName": "PingOneWallet",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -5609,7 +5869,7 @@
           {
             "kind": "Function",
             "name": "pairWallet",
-            "printedName": "pairWallet(for:pushToken:)",
+            "printedName": "pairWallet(for:pushToken:isSandbox:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -5645,11 +5905,26 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:13PingOneWallet0abC6ClientC04pairC03for9pushToken6DIDSDK17CompletionHandlerCyAG19ApplicationInstanceCGAA14PairingRequestV_10Foundation4DataVSgtF",
-            "mangledName": "$s13PingOneWallet0abC6ClientC04pairC03for9pushToken6DIDSDK17CompletionHandlerCyAG19ApplicationInstanceCGAA14PairingRequestV_10Foundation4DataVSgtF",
+            "usr": "s:13PingOneWallet0abC6ClientC04pairC03for9pushToken9isSandbox6DIDSDK17CompletionHandlerCyAH19ApplicationInstanceCGAA14PairingRequestV_10Foundation4DataVSgSbSgtF",
+            "mangledName": "$s13PingOneWallet0abC6ClientC04pairC03for9pushToken9isSandbox6DIDSDK17CompletionHandlerCyAH19ApplicationInstanceCGAA14PairingRequestV_10Foundation4DataVSgSbSgtF",
             "moduleName": "PingOneWallet",
             "declAttributes": [
               "AccessControl",
@@ -5660,7 +5935,7 @@
           {
             "kind": "Function",
             "name": "pairWallet",
-            "printedName": "pairWallet(for:pushToken:)",
+            "printedName": "pairWallet(for:pushToken:isSandbox:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -5696,11 +5971,26 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:13PingOneWallet0abC6ClientC04pairC03for9pushToken6DIDSDK17CompletionHandlerCyAG19ApplicationInstanceCGAA19PresentationRequestC_SSSgtF",
-            "mangledName": "$s13PingOneWallet0abC6ClientC04pairC03for9pushToken6DIDSDK17CompletionHandlerCyAG19ApplicationInstanceCGAA19PresentationRequestC_SSSgtF",
+            "usr": "s:13PingOneWallet0abC6ClientC04pairC03for9pushToken9isSandbox6DIDSDK17CompletionHandlerCyAH19ApplicationInstanceCGAA19PresentationRequestC_SSSgSbSgtF",
+            "mangledName": "$s13PingOneWallet0abC6ClientC04pairC03for9pushToken9isSandbox6DIDSDK17CompletionHandlerCyAH19ApplicationInstanceCGAA19PresentationRequestC_SSSgSbSgtF",
             "moduleName": "PingOneWallet",
             "deprecated": true,
             "declAttributes": [
@@ -5713,7 +6003,7 @@
           {
             "kind": "Function",
             "name": "updatePushTokens",
-            "printedName": "updatePushTokens(_:)",
+            "printedName": "updatePushTokens(_:isSandbox:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -5734,16 +6024,97 @@
                 "name": "Data",
                 "printedName": "Foundation.Data",
                 "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Func",
-            "usr": "s:13PingOneWallet0abC6ClientC16updatePushTokensySay6DIDSDK19ApplicationInstanceCG10Foundation4DataVF",
-            "mangledName": "$s13PingOneWallet0abC6ClientC16updatePushTokensySay6DIDSDK19ApplicationInstanceCG10Foundation4DataVF",
+            "usr": "s:13PingOneWallet0abC6ClientC16updatePushTokens_9isSandboxSay6DIDSDK19ApplicationInstanceCG10Foundation4DataV_SbtF",
+            "mangledName": "$s13PingOneWallet0abC6ClientC16updatePushTokens_9isSandboxSay6DIDSDK19ApplicationInstanceCG10Foundation4DataV_SbtF",
             "moduleName": "PingOneWallet",
             "declAttributes": [
               "AccessControl",
               "DiscardableResult",
               "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updatePushNotificationToken",
+            "printedName": "updatePushNotificationToken(_:isSandbox:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CompletionHandler",
+                "printedName": "DIDSDK.CompletionHandler<Swift.Bool>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:6DIDSDK17CompletionHandlerC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13PingOneWallet0abC6ClientC27updatePushNotificationToken_9isSandbox6DIDSDK17CompletionHandlerCySbG10Foundation4DataV_SbtF",
+            "mangledName": "$s13PingOneWallet0abC6ClientC27updatePushNotificationToken_9isSandbox6DIDSDK17CompletionHandlerCySbG10Foundation4DataV_SbtF",
+            "moduleName": "PingOneWallet",
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "disablePush",
+            "printedName": "disablePush()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CompletionHandler",
+                "printedName": "DIDSDK.CompletionHandler<Swift.Bool>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:6DIDSDK17CompletionHandlerC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13PingOneWallet0abC6ClientC11disablePush6DIDSDK17CompletionHandlerCySbGyF",
+            "mangledName": "$s13PingOneWallet0abC6ClientC11disablePush6DIDSDK17CompletionHandlerCySbGyF",
+            "moduleName": "PingOneWallet",
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -6288,7 +6659,7 @@
               {
                 "kind": "Function",
                 "name": "setPushToken",
-                "printedName": "setPushToken(_:)",
+                "printedName": "setPushToken(_:isSandbox:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -6301,11 +6672,18 @@
                     "name": "Data",
                     "printedName": "Foundation.Data",
                     "usr": "s:10Foundation4DataV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "hasDefaultArg": true,
+                    "usr": "s:Sb"
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:13PingOneWallet0abC6ClientC7BuilderC12setPushTokenyAE10Foundation4DataVF",
-                "mangledName": "$s13PingOneWallet0abC6ClientC7BuilderC12setPushTokenyAE10Foundation4DataVF",
+                "usr": "s:13PingOneWallet0abC6ClientC7BuilderC12setPushToken_9isSandboxAE10Foundation4DataV_SbtF",
+                "mangledName": "$s13PingOneWallet0abC6ClientC7BuilderC12setPushToken_9isSandboxAE10Foundation4DataV_SbtF",
                 "moduleName": "PingOneWallet",
                 "declAttributes": [
                   "AccessControl",
@@ -6351,7 +6729,23 @@
             "declAttributes": [
               "RawDocComment"
             ],
-            "isFromExtension": true
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
           },
           {
             "kind": "Function",
@@ -6937,6 +7331,20 @@
         ],
         "hasMissingDesignatedInitializers": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "LinkHandler",
@@ -7678,6 +8086,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Error",
             "printedName": "Error",
             "usr": "s:s5ErrorP",
@@ -7752,6 +8174,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -8003,6 +8441,20 @@
           "PropertyWrapper"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -8326,6 +8778,28 @@
           },
           {
             "kind": "Function",
+            "name": "getUrl",
+            "printedName": "getUrl()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13PingOneWallet0aB6RegionV6getUrlSSyF",
+            "mangledName": "$s13PingOneWallet0aB6RegionV6getUrlSSyF",
+            "moduleName": "PingOneWallet",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "==",
             "printedName": "==(_:_:)",
             "children": [
@@ -8519,6 +8993,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Hashable",
@@ -8729,6 +9217,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -9326,6 +9828,134 @@
           },
           {
             "kind": "Var",
+            "name": "failedToUpdateApplicationInstance",
+            "printedName": "failedToUpdateApplicationInstance",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PingOneWallet.WalletException.Type) -> (Swift.String, Swift.String) -> PingOneWallet.WalletException",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String, Swift.String) -> PingOneWallet.WalletException",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WalletException",
+                        "printedName": "PingOneWallet.WalletException",
+                        "usr": "s:13PingOneWallet0C9ExceptionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(id: Swift.String, debugDescription: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PingOneWallet.WalletException.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WalletException",
+                        "printedName": "PingOneWallet.WalletException",
+                        "usr": "s:13PingOneWallet0C9ExceptionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13PingOneWallet0C9ExceptionO33failedToUpdateApplicationInstanceyACSS_SStcACmF",
+            "mangledName": "$s13PingOneWallet0C9ExceptionO33failedToUpdateApplicationInstanceyACSS_SStcACmF",
+            "moduleName": "PingOneWallet"
+          },
+          {
+            "kind": "Var",
+            "name": "cannotUpdateApplicationInstances",
+            "printedName": "cannotUpdateApplicationInstances",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PingOneWallet.WalletException.Type) -> ([any Swift.Error]) -> PingOneWallet.WalletException",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "([any Swift.Error]) -> PingOneWallet.WalletException",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WalletException",
+                        "printedName": "PingOneWallet.WalletException",
+                        "usr": "s:13PingOneWallet0C9ExceptionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(underlyingErrors: [any Swift.Error])",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Array",
+                            "printedName": "[any Swift.Error]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Error",
+                                "printedName": "any Swift.Error",
+                                "usr": "s:s5ErrorP"
+                              }
+                            ],
+                            "usr": "s:Sa"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PingOneWallet.WalletException.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WalletException",
+                        "printedName": "PingOneWallet.WalletException",
+                        "usr": "s:13PingOneWallet0C9ExceptionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13PingOneWallet0C9ExceptionO32cannotUpdateApplicationInstancesyACSays5Error_pG_tcACmF",
+            "mangledName": "$s13PingOneWallet0C9ExceptionO32cannotUpdateApplicationInstancesyACSays5Error_pG_tcACmF",
+            "moduleName": "PingOneWallet"
+          },
+          {
+            "kind": "Var",
             "name": "mustInitClientWithApplicationInstance",
             "printedName": "mustInitClientWithApplicationInstance",
             "children": [
@@ -9632,6 +10262,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Error",
             "printedName": "Error",
             "usr": "s:s5ErrorP",
@@ -9821,7 +10465,23 @@
           "AccessControl",
           "RawDocComment"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -9949,6 +10609,22 @@
         "moduleName": "PingOneWallet",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -10181,6 +10857,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -10498,6 +11190,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -10738,6 +11446,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -10783,6 +11505,30 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PingOneWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "DIDSDK",
+        "printedName": "DIDSDK",
+        "declKind": "Import",
+        "moduleName": "PingOneWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "JoseTools",
+        "printedName": "JoseTools",
+        "declKind": "Import",
+        "moduleName": "PingOneWallet"
       },
       {
         "kind": "Import",
@@ -11313,6 +12059,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "WalletEvent",
             "printedName": "WalletEvent",
             "usr": "s:13PingOneWallet0C5EventP",
@@ -11502,6 +12262,20 @@
         ],
         "enumRawTypeName": "String",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -11792,6 +12566,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -11871,6 +12659,275 @@
         "moduleName": "PingOneWallet",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PushNotificationBody",
+        "printedName": "PushNotificationBody",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "credentialId",
+            "printedName": "credentialId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13PingOneWallet20PushNotificationBodyV12credentialIdSSvp",
+            "mangledName": "$s13PingOneWallet20PushNotificationBodyV12credentialIdSSvp",
+            "moduleName": "PingOneWallet",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13PingOneWallet20PushNotificationBodyV12credentialIdSSvg",
+                "mangledName": "$s13PingOneWallet20PushNotificationBodyV12credentialIdSSvg",
+                "moduleName": "PingOneWallet",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13PingOneWallet20PushNotificationBodyV12credentialIdSSvs",
+                "mangledName": "$s13PingOneWallet20PushNotificationBodyV12credentialIdSSvs",
+                "moduleName": "PingOneWallet",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13PingOneWallet20PushNotificationBodyV12credentialIdSSvM",
+                "mangledName": "$s13PingOneWallet20PushNotificationBodyV12credentialIdSSvM",
+                "moduleName": "PingOneWallet",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "credentialName",
+            "printedName": "credentialName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13PingOneWallet20PushNotificationBodyV14credentialNameSSvp",
+            "mangledName": "$s13PingOneWallet20PushNotificationBodyV14credentialNameSSvp",
+            "moduleName": "PingOneWallet",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13PingOneWallet20PushNotificationBodyV14credentialNameSSvg",
+                "mangledName": "$s13PingOneWallet20PushNotificationBodyV14credentialNameSSvg",
+                "moduleName": "PingOneWallet",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13PingOneWallet20PushNotificationBodyV14credentialNameSSvs",
+                "mangledName": "$s13PingOneWallet20PushNotificationBodyV14credentialNameSSvs",
+                "moduleName": "PingOneWallet",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13PingOneWallet20PushNotificationBodyV14credentialNameSSvM",
+                "mangledName": "$s13PingOneWallet20PushNotificationBodyV14credentialNameSSvM",
+                "moduleName": "PingOneWallet",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PushNotificationBody",
+                "printedName": "PingOneWallet.PushNotificationBody",
+                "usr": "s:13PingOneWallet20PushNotificationBodyV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13PingOneWallet20PushNotificationBodyV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s13PingOneWallet20PushNotificationBodyV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "PingOneWallet",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13PingOneWallet20PushNotificationBodyV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s13PingOneWallet20PushNotificationBodyV6encode2toys7Encoder_p_tKF",
+            "moduleName": "PingOneWallet",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13PingOneWallet20PushNotificationBodyV",
+        "mangledName": "$s13PingOneWallet20PushNotificationBodyV",
+        "moduleName": "PingOneWallet",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
         ]
       },
       {
@@ -12443,7 +13500,23 @@
           "AccessControl",
           "RawDocComment"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -12614,7 +13687,23 @@
           "AccessControl",
           "RawDocComment"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -12669,6 +13758,20 @@
             "printedName": "JsonSerializableProtocol",
             "usr": "s:20CommunicationManager24JsonSerializableProtocolP",
             "mangledName": "$s20CommunicationManager24JsonSerializableProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -12719,6 +13822,20 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -12769,6 +13886,20 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -12819,6 +13950,20 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -12913,6 +14058,27 @@
             ],
             "usr": "s:s30KeyedDecodingContainerProtocolP",
             "mangledName": "$ss30KeyedDecodingContainerProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -12993,6 +14159,27 @@
             ],
             "usr": "s:s30KeyedEncodingContainerProtocolP",
             "mangledName": "$ss30KeyedEncodingContainerProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       }
@@ -13000,34 +14187,6 @@
     "json_format_version": 8
   },
   "ConstValues": [
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/WalletMessage\/WalletMessageType.swift",
-      "kind": "StringLiteral",
-      "offset": 182,
-      "length": 16,
-      "value": "\"pairingPayload\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/WalletMessage\/WalletMessageType.swift",
-      "kind": "StringLiteral",
-      "offset": 224,
-      "length": 14,
-      "value": "\"pairingEvent\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/WalletMessage\/WalletMessageType.swift",
-      "kind": "StringLiteral",
-      "offset": 267,
-      "length": 17,
-      "value": "\"credentialEvent\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/WalletMessage\/WalletMessageType.swift",
-      "kind": "StringLiteral",
-      "offset": 304,
-      "length": 9,
-      "value": "\"unknown\""
-    },
     {
       "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/WalletMessage\/WalletMessageType.swift",
       "kind": "StringLiteral",
@@ -13080,16 +14239,23 @@
     {
       "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/client\/PingOneWalletClient+Builder.swift",
       "kind": "BooleanLiteral",
-      "offset": 1388,
+      "offset": 712,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/client\/PingOneWalletClient+Builder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1434,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/WalletMessage\/credential\/CredentialMessage.swift",
-      "kind": "StringLiteral",
-      "offset": 1017,
-      "length": 20,
-      "value": "\"CREDENTIAL_UPDATED\""
+      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/client\/PingOneWalletClient+Builder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4187,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/WalletMessage\/credential\/CredentialMessage.swift",
@@ -13169,13 +14335,6 @@
       "value": "\"redirect_url\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/CredentialRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 110,
-      "length": 17,
-      "value": "\"PingOneWallet.CredentialRequest\""
-    },
-    {
       "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/storage\/StorageKeys.swift",
       "kind": "StringLiteral",
       "offset": 185,
@@ -13247,59 +14406,38 @@
     },
     {
       "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/client\/PingOneWalletClient.swift",
-      "kind": "Dictionary",
-      "offset": 298,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/client\/PingOneWalletClient.swift",
-      "kind": "Dictionary",
-      "offset": 376,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/client\/PingOneWalletClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 601,
+      "offset": 449,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/client\/PingOneWalletClient.swift",
-      "kind": "Dictionary",
-      "offset": 671,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/client\/PingOneWalletClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 933,
+      "offset": 781,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/appEvents\/AppEventType.swift",
-      "kind": "StringLiteral",
-      "offset": 142,
-      "length": 19,
-      "value": "\"issuance_accepted\""
+      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/client\/PingOneWalletClient.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7961,
+      "length": 5,
+      "value": "false"
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/appEvents\/AppEventType.swift",
-      "kind": "StringLiteral",
-      "offset": 204,
-      "length": 21,
-      "value": "\"revocation_accepted\""
+      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/client\/PingOneWalletClient.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8732,
+      "length": 5,
+      "value": "false"
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/appEvents\/AppEventType.swift",
-      "kind": "StringLiteral",
-      "offset": 256,
-      "length": 20,
-      "value": "\"credential_deleted\""
+      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/client\/PingOneWalletClient.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9424,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/appEvents\/AppEventType.swift",
@@ -13335,6 +14473,13 @@
       "offset": 164,
       "length": 10,
       "value": "\"CardType\""
+    },
+    {
+      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/client\/NetworkManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 969,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/RequestedKey.swift",
@@ -13386,32 +14531,25 @@
       "value": "\"unknown\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/WalletEvents\/WalletEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 793,
-      "length": 7,
-      "value": "\"error\""
+      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/client\/ApplicationInstanceManager.swift",
+      "kind": "Dictionary",
+      "offset": 383,
+      "length": 3,
+      "value": "[]"
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/WalletEvents\/WalletEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 820,
-      "length": 9,
-      "value": "\"pairing\""
+      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/client\/ApplicationInstanceManager.swift",
+      "kind": "Dictionary",
+      "offset": 457,
+      "length": 3,
+      "value": "[]"
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/WalletEvents\/WalletEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 859,
-      "length": 19,
-      "value": "\"credential_update\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/WalletEvents\/WalletEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 898,
-      "length": 9,
-      "value": "\"unknown\""
+      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/client\/ApplicationInstanceManager.swift",
+      "kind": "Dictionary",
+      "offset": 521,
+      "length": 3,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/WalletMessage\/pairing\/PairingPayload.swift",
@@ -13449,6 +14587,20 @@
       "value": "\"CFBundleShortVersionString\""
     },
     {
+      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/WalletMessage\/pairing\/PairingPayload.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1025,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/WalletMessage\/pairing\/PairingPayload.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1831,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/WalletMessage\/pairing\/PairingMessage.swift",
       "kind": "StringLiteral",
       "offset": 1136,
@@ -13463,51 +14615,23 @@
       "value": "\"PAIRING_REQUEST\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/WalletMessage\/pairing\/PairingMessage.swift",
-      "kind": "StringLiteral",
-      "offset": 1136,
-      "length": 18,
-      "value": "\"PAIRING_RESPONSE\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/WalletMessage\/pairing\/PairingMessage.swift",
-      "kind": "StringLiteral",
-      "offset": 1182,
-      "length": 17,
-      "value": "\"PAIRING_REQUEST\""
-    },
-    {
       "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/PushNotificationBody.swift",
       "kind": "StringLiteral",
-      "offset": 297,
+      "offset": 318,
       "length": 15,
       "value": "\"credential.id\""
     },
     {
       "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/PushNotificationBody.swift",
       "kind": "StringLiteral",
-      "offset": 331,
-      "length": 17,
-      "value": "\"credential.name\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/PushNotificationBody.swift",
-      "kind": "StringLiteral",
-      "offset": 297,
-      "length": 15,
-      "value": "\"credential.id\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/PushNotificationBody.swift",
-      "kind": "StringLiteral",
-      "offset": 331,
+      "offset": 352,
       "length": 17,
       "value": "\"credential.name\""
     },
     {
       "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/utils\/ClaimPresentationHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 3445,
+      "offset": 3456,
       "length": 5,
       "value": "false"
     },

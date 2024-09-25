@@ -71,6 +71,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return true
     }
     
+    func applicationDidBecomeActive(_ application: UIApplication) {
+        self.checkPushNotificationPermission()
+    }
+    
     func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
         logattention("didRegisterForRemoteNotificationsWithDeviceToken: \(deviceToken.hexDescription)")
         self.pnToken = deviceToken
@@ -133,8 +137,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         DispatchQueue.main.async {
             let center = UNUserNotificationCenter.current()
             center.requestAuthorization(options: [.alert, .sound, .badge]) { granted, error in
-                if let error = error {
-                    logerror("Error: User denied permission for push notifications. \(error.localizedDescription)")
+                let pushEnabled = granted && error == nil
+                guard pushEnabled else {
+                    logerror("Error: User denied permission for push notifications. \(String(describing: error?.localizedDescription))")
+                    self.pnToken = "".toData()
                     return
                 }
                 
@@ -143,6 +149,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 }
             }
             
+        }
+    }
+    
+    func checkPushNotificationPermission() {
+        UNUserNotificationCenter.current().getNotificationSettings { settings in
+            switch settings.authorizationStatus {
+            case .denied:
+                logattention("Push notification permission denied")
+                self.pnToken = "".toData()
+            default:
+                log("Push notification permission not denied")
+                if (!UserDefaults.standard.bool(forKey: PingOneWalletHelper.PUSH_DISABLED_KEY)) {
+                    DispatchQueue.main.async {
+                        UIApplication.shared.registerForRemoteNotifications()
+                    }
+                }
+            }
         }
     }
     

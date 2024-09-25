@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
 // swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name libsecp256k1
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import Foundation
 import Swift
 import _Concurrency
@@ -35,11 +36,9 @@ extension secp256k1Wrapper.secp256k1_ecdsa_recoverable_signature {
 }
 extension Swift.String {
   public init<T>(bytes: T) where T : Foundation.DataProtocol
-  #if compiler(>=5.3) && $EffectfulProp
   public var bytes: [Swift.UInt8] {
     get throws
   }
-  #endif
 }
 extension libsecp256k1.secp256k1.Signing.PrivateKey {
   public func add(_ tweak: [Swift.UInt8]) throws -> libsecp256k1.secp256k1.Signing.PrivateKey
@@ -76,16 +75,12 @@ extension libsecp256k1.secp256k1.Signing {
     public init<D>(derRepresentation: D) throws where D : Foundation.DataProtocol
     public init<D>(compactRepresentation: D) throws where D : Foundation.DataProtocol
     public func withUnsafeBytes<R>(_ body: (Swift.UnsafeRawBufferPointer) throws -> R) rethrows -> R
-    #if compiler(>=5.3) && $EffectfulProp
     public var compactRepresentation: Foundation.Data {
       get throws
     }
-    #endif
-    #if compiler(>=5.3) && $EffectfulProp
     public var derRepresentation: Foundation.Data {
       get throws
     }
-    #endif
   }
 }
 extension libsecp256k1.secp256k1.Signing {
@@ -189,16 +184,12 @@ extension libsecp256k1.secp256k1.Recovery {
     public init<D>(rawRepresentation: D) throws where D : Foundation.DataProtocol
     public init<D>(compactRepresentation: D, recoveryId: Swift.Int32) throws where D : Foundation.DataProtocol
     public func withUnsafeBytes<R>(_ body: (Swift.UnsafeRawBufferPointer) throws -> R) rethrows -> R
-    #if compiler(>=5.3) && $EffectfulProp
     public var compactRepresentation: libsecp256k1.secp256k1.Recovery.ECDSACompactSignature {
       get throws
     }
-    #endif
-    #if compiler(>=5.3) && $EffectfulProp
     public var normalize: libsecp256k1.secp256k1.Signing.ECDSASignature {
       get throws
     }
-    #endif
   }
 }
 public enum secp256k1 {
@@ -375,7 +366,7 @@ public struct HashDigest : libsecp256k1.Digest {
     get
   }
   public func hash(into hasher: inout Swift.Hasher)
-  public typealias Element = Swift.IndexingIterator<Swift.Array<Swift.UInt8>>.Element
+  public typealias Element = Swift.UInt8
   public typealias Iterator = Swift.Array<Swift.UInt8>.Iterator
   public var hashValue: Swift.Int {
     get

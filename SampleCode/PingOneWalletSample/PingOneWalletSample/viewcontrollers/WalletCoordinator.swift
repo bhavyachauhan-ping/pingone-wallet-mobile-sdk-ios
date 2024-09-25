@@ -46,6 +46,10 @@ public class WalletCoordinator {
         }
         
         self.eventObserver.observePushTokenRegistration { pushToken in
+            guard (!UserDefaults.standard.bool(forKey: PingOneWalletHelper.PUSH_DISABLED_KEY)) else {
+                logattention("Push disabled by user, not updating token with backend")
+                return
+            }
             self.pingOneWalletHelper.updatePushToken(pushToken)
         }
         
@@ -90,6 +94,67 @@ public class WalletCoordinator {
         }
     }
     
+    public func showAppInfo() {
+        let applicationInstances: [String: String] = self.pingOneWalletHelper.getDataRepository().getAllRegions().reduce(into: [String: String]()) { partialResult, region in
+            if let appInstance = self.pingOneWalletHelper.getDataRepository().getApplicationInstance(forRegion: region) {
+                partialResult[region.getUrl()] = appInstance.getId()
+            }
+        }
+
+        let message = AppInfoUtils.getAppInfoMessageFor(applicationInstances: applicationInstances)
+        let alertController = UIAlertController(title: "Application Info", message: message, preferredStyle: .alert)
+
+        alertController.addAction(UIAlertAction(title: "Copy to clipboard", style: .default) { _ in
+            UIPasteboard.general.string = message
+            self.showToast(message: "Message copied to clipboard", hideAfter: Self.TOAST_DURATION)
+        })
+        
+        
+        alertController.addAction(UIAlertAction(title: "Cancel", style: .cancel))
+        
+        
+        self.navigationController.present(alertController, animated: true)
+    }
+    
+
+    public func showCommandDialog() {
+        let alertController = UIAlertController(title: "Enter the command", message: "start polling, stop polling, enable push, disable push, delete creds", preferredStyle: .alert)
+        alertController.addTextField()
+        
+        let submitAction = UIAlertAction(title: "Submit", style: .default) { _ in
+            guard let text = alertController.textFields?.first?.text else {
+                return
+            }
+            log("Action - \(text)")
+            self.handleAction(text)
+        }
+        alertController.addAction(submitAction)
+        alertController.addAction(UIAlertAction(title: "Cancel", style: .cancel))
+        
+        self.navigationController.present(alertController, animated: true)
+    }
+    
+    private func handleAction(_ action: String) {
+        switch (action.lowercased()) {
+        case AppInfoUtils.START_POLLING:
+            self.pingOneWalletHelper.pollForMessages()
+            self.showToast(message: "Polling started", hideAfter: Self.TOAST_DURATION)
+        case AppInfoUtils.STOP_POLLING:
+            self.pingOneWalletHelper.stopPolling()
+            self.showToast(message: "Polling stopped", hideAfter: Self.TOAST_DURATION)
+        case AppInfoUtils.ENABLE_PUSH:
+            self.pingOneWalletHelper.enablePush()
+        case AppInfoUtils.DISABLE_PUSH:
+            self.pingOneWalletHelper.disablePush()
+        case AppInfoUtils.DELETE_CREDS:
+            self.pingOneWalletHelper.deleteAllCreds()
+            self.showToast(message: "Deleting all credentials", hideAfter: Self.TOAST_DURATION)
+        default:
+            log("Not handling \(action) yet")
+            self.showToast(message: "Invalid command", hideAfter: Self.TOAST_DURATION)
+        }
+    }
+    
     public func showQrScanner() {
         #if targetEnvironment(simulator) //Strictly for local testing
         let alertController = UIAlertController(title: "Copy the URL for execution", message: "", preferredStyle: .alert)
@@ -121,7 +186,7 @@ public class WalletCoordinator {
             self.navigationController.present(pickerView.getViewController(), animated: true)
         }
     }
-    
+        
 }
 
 extension WalletCoordinator: ApplicationUiCallbackHandler {
