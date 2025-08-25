@@ -4,21 +4,9 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Frameworks/AnyCoder.framework/AnyCoder</key>
-		<data>
-		VGkfoILKAxo/98T5joJngHLb2zU=
-		</data>
-		<key>Frameworks/AnyCoder.framework/Info.plist</key>
-		<data>
-		FOqupdUlQl3AUQwZgtE/gecf/FE=
-		</data>
-		<key>Frameworks/AnyCoder.framework/_CodeSignature/CodeResources</key>
-		<data>
-		UqUy6jZskleo2fkNOKlIHy2PyEc=
-		</data>
 		<key>Headers/PingOneWallet-Swift.h</key>
 		<data>
-		t8WK0xj5YtdOL3kv/17Vdcllw4c=
+		ZAj8rv//RXfqCF78MV+icXMJ0Do=
 		</data>
 		<key>Headers/PingOneWallet.h</key>
 		<data>
@@ -26,27 +14,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		q8vKPiRuRsgUHB75rpuFMboprMk=
+		5lNe+yH6KWyVTSrgNXg90iqUslg=
 		</data>
 		<key>Modules/PingOneWallet.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		1ymJVl82CbZ412ZBOhICZN7Yuss=
+		uD2Q3ebAy6dRl5CYHxtn1tEsghc=
 		</data>
 		<key>Modules/PingOneWallet.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		iy0WFEshAWaWrOi2E70Czg4MTig=
+		QuUwYMf7lIZNftXsmW9/RTkzHuY=
 		</data>
 		<key>Modules/PingOneWallet.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		e5sAxvBZRcO5RYGiD5T/YPoqNtU=
+		FxBskkWNat0STZ0wvzu6k+M28js=
 		</data>
 		<key>Modules/PingOneWallet.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		iy0WFEshAWaWrOi2E70Czg4MTig=
+		QuUwYMf7lIZNftXsmW9/RTkzHuY=
 		</data>
 		<key>Modules/PingOneWallet.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		VC+AINeni0vQKgQ3c3gVtmLOgPI=
+		FKttgHMutKGV6agvTsCYzVWxuig=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -55,32 +43,11 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Frameworks/AnyCoder.framework/AnyCoder</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ZnuwDmqIi64ku+CLfa99tVwbw52tW2sI7S4Oa97eEx0=
-			</data>
-		</dict>
-		<key>Frameworks/AnyCoder.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			uvwEhkhL+B3imu7JflmbpK9JiYoNszHTXq7Klnj/vlQ=
-			</data>
-		</dict>
-		<key>Frameworks/AnyCoder.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			l2HbH+0s1w8donrdHBFxf5VwOpKHtwbCOdd1KAAG8Wo=
-			</data>
-		</dict>
 		<key>Headers/PingOneWallet-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			L2MQ2cXwX4973D0g0uZKFEUQ5DxL6jMIn+D/mQfz2wQ=
+			gW4tzkCQHEuVDxMYqnipN7EwrQc5IAh5LzPfYuwx0xI=
 			</data>
 		</dict>
 		<key>Headers/PingOneWallet.h</key>
@@ -94,35 +61,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qwrWiwFaluLbj+j8VHGtGxExu7vmlqOzzSMWTn9R7NA=
+			cpeYPIgO2yJPPuGrjMl/3paI0SZrzUhO2XEANfleun4=
 			</data>
 		</dict>
 		<key>Modules/PingOneWallet.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UW0o4UDhDc78K+wHIlq6layXY6dqu4AfuueYzifyerw=
+			FUgEL5O7dACnQr0HFhbPHW6HdzJBG7ITRMb9LVI9Qc4=
 			</data>
 		</dict>
 		<key>Modules/PingOneWallet.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AK2FBIHmvRhnvYaZfwGSmAI/uN6PoKdgaOJkyMnYnoM=
+			gXd0HcOxE7Tz+lD1UdBAZ9gQkOE9YSnNOdZYvtQdFks=
 			</data>
 		</dict>
 		<key>Modules/PingOneWallet.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UW0o4UDhDc78K+wHIlq6layXY6dqu4AfuueYzifyerw=
+			FUgEL5O7dACnQr0HFhbPHW6HdzJBG7ITRMb9LVI9Qc4=
 			</data>
 		</dict>
 		<key>Modules/PingOneWallet.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oTJMErLP1jjyO9CT2MqJ8c5+BhICz/DOflMpkb5g/B0=
+			r7hfCKeJxZXCNEN0L7PB5nc/oMrhkcMde0MpHottcL8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

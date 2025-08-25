@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/libsecp256k1-Swift.h</key>
 		<data>
-		54KHTBwxjKpg9hunkGPUVDpArdc=
+		fLaqLuzf3WXkQeYCF3sSTkQdmhk=
 		</data>
 		<key>Headers/libsecp256k1.h</key>
 		<data>
@@ -14,27 +14,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		RGcwBg7at43/VQkwc1aVrZ7adt0=
+		p0JQI/EZ/AfT7mLKs3AgqsDH9XM=
 		</data>
 		<key>Modules/libsecp256k1.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		Vd+ZTaUSU+w7CvSfdA9BsJkGBwQ=
+		DQi3NkIbzExNfiyATX1C5TzP/ic=
 		</data>
 		<key>Modules/libsecp256k1.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		Ok+xN5r1YKvBHm8FA267A11L2OA=
+		pLp0uohQIhW+L5OuKcuakQ64Zp0=
 		</data>
 		<key>Modules/libsecp256k1.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		zmO+wZqHO/0vKik/aVmMZ2b21fA=
+		Adt84kuXvHiyg41BSrRuhVfKzgQ=
 		</data>
 		<key>Modules/libsecp256k1.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		Ok+xN5r1YKvBHm8FA267A11L2OA=
+		pLp0uohQIhW+L5OuKcuakQ64Zp0=
 		</data>
 		<key>Modules/libsecp256k1.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		ve5Y3HnDAxaA7OAZIhNVGwM41m4=
+		Y8QdIctni0hjHEmHncEGhFMRr1w=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -47,7 +47,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kSWaW3YxYQRK0Hryd+GXfWJGP7KFMMQGb47dFjxiRrE=
+			pRglvj6pxWsxsyFCRnedeuMMMPcPF8UOQ21jon9E44w=
 			</data>
 		</dict>
 		<key>Headers/libsecp256k1.h</key>
@@ -61,35 +61,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			235fVd17KacYDzKEJgkqpLC8NOgQ/Oliaeuo/MOYeEg=
+			d4ZEqfzmmHyrTeMDeYGcjZ/tZZ9bY5lV97qkd6qAvkk=
 			</data>
 		</dict>
 		<key>Modules/libsecp256k1.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oPSgVX9UXp5fRk7x4fNCMPk74LSxiZGpRoLsoyoJ4Ho=
+			0tE8npP7mbA3LQ+6Zramqt7v91gM/+cNnD3Lorujhkc=
 			</data>
 		</dict>
 		<key>Modules/libsecp256k1.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xNIffcZLAhDSCXLtiD0Ems0lbt9p3q02MmAxjn9i+9g=
+			MTtMnFinLtSWHEXDDqkWdeMaQaAgkgpW1iBkOcAoayU=
 			</data>
 		</dict>
 		<key>Modules/libsecp256k1.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oPSgVX9UXp5fRk7x4fNCMPk74LSxiZGpRoLsoyoJ4Ho=
+			0tE8npP7mbA3LQ+6Zramqt7v91gM/+cNnD3Lorujhkc=
 			</data>
 		</dict>
 		<key>Modules/libsecp256k1.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			16/jgLQq/eUaJLqK0IhmJQGtEkQ8OjBtZT49zzBq1bg=
+			7PpBj2WvA1A/OGrg5QU4nA5uHb2v/rtoyZ/YfVAhu5g=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

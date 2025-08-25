@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "DIDSDK",
+    "printedName": "DIDSDK",
     "children": [
       {
         "kind": "Import",
@@ -226,6 +226,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -706,6 +722,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Error",
             "printedName": "Error",
             "usr": "s:s5ErrorP",
@@ -890,6 +920,22 @@
         "moduleName": "DIDSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -1272,6 +1318,20 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -1598,6 +1658,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "DID",
             "printedName": "DID",
             "usr": "s:6DIDSDK3DIDP",
@@ -1876,7 +1950,23 @@
             "usr": "s:6DIDSDK10DidSupportC7BuilderC",
             "mangledName": "$s6DIDSDK10DidSupportC7BuilderC",
             "moduleName": "DIDSDK",
-            "isFromExtension": true
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
           }
         ],
         "declKind": "Class",
@@ -1885,6 +1975,22 @@
         "moduleName": "DIDSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -2086,6 +2192,22 @@
         "moduleName": "DIDSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -2284,6 +2406,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CoderProtocol",
             "printedName": "CoderProtocol",
             "usr": "s:20CommunicationManager13CoderProtocolP",
@@ -2458,6 +2594,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "DidCreator",
             "printedName": "DidCreator",
             "usr": "s:6DIDSDK10DidCreatorP",
@@ -2556,6 +2706,20 @@
         ],
         "hasMissingDesignatedInitializers": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "DidParser",
@@ -2845,6 +3009,20 @@
             "printedName": "JsonSerializableProtocol",
             "usr": "s:20CommunicationManager24JsonSerializableProtocolP",
             "mangledName": "$s20CommunicationManager24JsonSerializableProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -4048,7 +4226,23 @@
             "usr": "s:6DIDSDK19DistributedIdClientC7BuilderC",
             "mangledName": "$s6DIDSDK19DistributedIdClientC7BuilderC",
             "moduleName": "DIDSDK",
-            "isFromExtension": true
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
           }
         ],
         "declKind": "Class",
@@ -4058,7 +4252,23 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -4200,6 +4410,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -4551,6 +4775,22 @@
         "moduleName": "DIDSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -4720,6 +4960,22 @@
         "moduleName": "DIDSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -4793,6 +5049,22 @@
         "moduleName": "DIDSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -5108,6 +5380,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
@@ -5232,7 +5518,23 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -5418,6 +5720,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -5856,6 +6172,20 @@
             "printedName": "JsonSerializableProtocol",
             "usr": "s:20CommunicationManager24JsonSerializableProtocolP",
             "mangledName": "$s20CommunicationManager24JsonSerializableProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -6154,6 +6484,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -6600,6 +6944,22 @@
         "moduleName": "DIDSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -7177,6 +7537,22 @@
         "moduleName": "DIDSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -7203,6 +7579,20 @@
             "printedName": "JsonSerializableProtocol",
             "usr": "s:20CommunicationManager24JsonSerializableProtocolP",
             "mangledName": "$s20CommunicationManager24JsonSerializableProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -7279,6 +7669,22 @@
         "moduleName": "DIDSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -8064,6 +8470,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -8311,6 +8731,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -8482,6 +8916,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -9068,6 +9516,20 @@
             "printedName": "JsonSerializableProtocol",
             "usr": "s:20CommunicationManager24JsonSerializableProtocolP",
             "mangledName": "$s20CommunicationManager24JsonSerializableProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -9175,7 +9637,23 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -9340,6 +9818,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -9509,6 +10001,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -9787,6 +10293,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -10388,6 +10908,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -10606,6 +11140,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -10684,7 +11232,23 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -10733,7 +11297,23 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -10782,7 +11362,23 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -11211,7 +11807,23 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -11346,6 +11958,22 @@
         "moduleName": "DIDSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -11558,6 +12186,20 @@
             "printedName": "JsonSerializableProtocol",
             "usr": "s:20CommunicationManager24JsonSerializableProtocolP",
             "mangledName": "$s20CommunicationManager24JsonSerializableProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -12204,6 +12846,20 @@
             "printedName": "JsonSerializableProtocol",
             "usr": "s:20CommunicationManager24JsonSerializableProtocolP",
             "mangledName": "$s20CommunicationManager24JsonSerializableProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -12443,6 +13099,20 @@
             "printedName": "JsonSerializableProtocol",
             "usr": "s:20CommunicationManager24JsonSerializableProtocolP",
             "mangledName": "$s20CommunicationManager24JsonSerializableProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -12786,6 +13456,20 @@
             "printedName": "JsonSerializableProtocol",
             "usr": "s:20CommunicationManager24JsonSerializableProtocolP",
             "mangledName": "$s20CommunicationManager24JsonSerializableProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -12877,6 +13561,20 @@
         ],
         "hasMissingDesignatedInitializers": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "DidParser",
@@ -13111,6 +13809,22 @@
         "moduleName": "DIDSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -13176,6 +13890,22 @@
         "moduleName": "DIDSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -13235,7 +13965,23 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -13413,6 +14159,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -13656,6 +14416,20 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -13869,6 +14643,20 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -14098,6 +14886,20 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -14333,6 +15135,20 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -14452,6 +15268,20 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -14610,6 +15440,20 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -15218,6 +16062,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Error",
             "printedName": "Error",
             "usr": "s:s5ErrorP",
@@ -15319,7 +16177,23 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -15376,7 +16250,23 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -15574,6 +16464,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -15674,6 +16578,22 @@
         "moduleName": "DIDSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -16172,6 +17092,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -16264,6 +17198,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -16753,6 +17701,33 @@
           },
           {
             "kind": "Function",
+            "name": "setPushToken",
+            "printedName": "setPushToken(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6DIDSDK19ApplicationInstanceC12setPushTokenyy10Foundation4DataVF",
+            "mangledName": "$s6DIDSDK19ApplicationInstanceC12setPushTokenyy10Foundation4DataVF",
+            "moduleName": "DIDSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "getOsType",
             "printedName": "getOsType()",
             "children": [
@@ -16974,6 +17949,20 @@
             "printedName": "JsonSerializableProtocol",
             "usr": "s:20CommunicationManager24JsonSerializableProtocolP",
             "mangledName": "$s20CommunicationManager24JsonSerializableProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -17309,6 +18298,22 @@
         "moduleName": "DIDSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -17759,6 +18764,20 @@
             "printedName": "Hashable",
             "usr": "s:SH",
             "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -18422,6 +19441,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Error",
             "printedName": "Error",
             "usr": "s:s5ErrorP",
@@ -18556,7 +19589,23 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -18706,6 +19755,22 @@
         "moduleName": "DIDSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -18889,6 +19954,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "DID",
@@ -20044,7 +21123,23 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -20283,14 +21378,15 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:6DIDSDK29VerifiableCredentialGeneratorC10fromString6stringSayAA0bC0CGSgSS_tFZ",
-            "mangledName": "$s6DIDSDK29VerifiableCredentialGeneratorC10fromString6stringSayAA0bC0CGSgSS_tFZ",
+            "usr": "s:6DIDSDK29VerifiableCredentialGeneratorC10fromString6stringSayAA0bC0CGSgSS_tKFZ",
+            "mangledName": "$s6DIDSDK29VerifiableCredentialGeneratorC10fromString6stringSayAA0bC0CGSgSS_tKFZ",
             "moduleName": "DIDSDK",
             "static": true,
             "declAttributes": [
               "Final",
               "AccessControl"
             ],
+            "throwing": true,
             "funcSelfKind": "NonMutating"
           }
         ],
@@ -20301,7 +21397,23 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -20397,6 +21509,20 @@
             "printedName": "JsonSerializableProtocol",
             "usr": "s:20CommunicationManager24JsonSerializableProtocolP",
             "mangledName": "$s20CommunicationManager24JsonSerializableProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -20890,6 +22016,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -21057,6 +22197,20 @@
               "AccessControl"
             ],
             "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
               {
                 "kind": "Conformance",
                 "name": "Equatable",
@@ -21279,6 +22433,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Hashable",
                 "printedName": "Hashable",
                 "usr": "s:SH",
@@ -21300,6 +22468,22 @@
         "moduleName": "DIDSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -22771,6 +23955,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -23153,6 +24351,20 @@
         ],
         "hasMissingDesignatedInitializers": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -23824,6 +25036,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -24161,6 +25387,20 @@
         ],
         "hasMissingDesignatedInitializers": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -24772,6 +26012,20 @@
             "printedName": "JsonSerializableProtocol",
             "usr": "s:20CommunicationManager24JsonSerializableProtocolP",
             "mangledName": "$s20CommunicationManager24JsonSerializableProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -24877,6 +26131,20 @@
             "printedName": "JsonSerializableProtocol",
             "usr": "s:20CommunicationManager24JsonSerializableProtocolP",
             "mangledName": "$s20CommunicationManager24JsonSerializableProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -25461,6 +26729,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Error",
             "printedName": "Error",
             "usr": "s:s5ErrorP",
@@ -25542,7 +26824,23 @@
           "AccessControl",
           "RawDocComment"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -25926,6 +27224,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -26201,7 +27513,23 @@
           "AccessControl",
           "RawDocComment"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -26319,6 +27647,20 @@
         ],
         "isExternal": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -26934,6 +28276,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomDebugStringConvertible",
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
@@ -27089,7 +28445,23 @@
             "usr": "s:9JoseTools13JsonWebKeySetV6DIDSDKE8ConstantO",
             "mangledName": "$s9JoseTools13JsonWebKeySetV6DIDSDKE8ConstantO",
             "moduleName": "DIDSDK",
-            "isFromExtension": true
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
           },
           {
             "kind": "Constructor",
@@ -27154,7 +28526,23 @@
         "usr": "s:9JoseTools13JsonWebKeySetV",
         "mangledName": "$s9JoseTools13JsonWebKeySetV",
         "moduleName": "JoseTools",
-        "isExternal": true
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -27213,6 +28601,20 @@
         ],
         "isExternal": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -27600,6 +29002,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "_FormatSpecifiable",
             "printedName": "_FormatSpecifiable",
             "children": [
@@ -27722,6 +29131,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -27790,13 +29213,6 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/types\/VerifiableCredentialID\/IonPublicKey.swift",
-      "kind": "StringLiteral",
-      "offset": 161,
-      "length": 12,
-      "value": "\"DIDSDK.IonPublicKey\""
-    },
-    {
       "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/types\/VerifiableCredentialID\/DidSupport.swift",
       "kind": "Dictionary",
       "offset": 3360,
@@ -27804,32 +29220,11 @@
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/serviceapi\/requests\/id-routing\/MailRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 146,
-      "length": 11,
-      "value": "\"DIDSDK.MailRequest\""
-    },
-    {
       "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/types\/VerifiableCredentialID\/Util\/MultiHash.swift",
       "kind": "IntegerLiteral",
       "offset": 134,
       "length": 4,
       "value": "0x12"
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/serviceapi\/response\/id-registration\/ClaimResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 150,
-      "length": 13,
-      "value": "\"DIDSDK.ClaimResponse\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/serviceapi\/requests\/id-registration\/CreateClaimRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 149,
-      "length": 18,
-      "value": "\"DIDSDK.CreateClaimRequest\""
     },
     {
       "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/types\/VerifiableCredentialID\/Creator\/IonDidCreator.swift",
@@ -27902,25 +29297,11 @@
       "value": "\"did:ion:\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/claims\/ExpirationSignature.swift",
-      "kind": "StringLiteral",
-      "offset": 167,
-      "length": 19,
-      "value": "\"DIDSDK.ExpirationSignature\""
-    },
-    {
       "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/clients\/DistributedIdClient.swift",
       "kind": "IntegerLiteral",
       "offset": 937,
       "length": 1,
       "value": "1"
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/types\/IssuerMetadata\/Logo.swift",
-      "kind": "StringLiteral",
-      "offset": 370,
-      "length": 10,
-      "value": "\"alt_text\""
     },
     {
       "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/types\/IssuerMetadata\/Logo.swift",
@@ -28000,20 +29381,6 @@
       "value": "\"keyId:\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/serviceapi\/message\/Message.swift",
-      "kind": "StringLiteral",
-      "offset": 222,
-      "length": 11,
-      "value": "\"DIDSDK.MessageImpl\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/serviceapi\/response\/id-routing\/GetMailsResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 147,
-      "length": 16,
-      "value": "\"DIDSDK.GetMailsResponse\""
-    },
-    {
       "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/types\/Salt.swift",
       "kind": "IntegerLiteral",
       "offset": 167,
@@ -28049,13 +29416,6 @@
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/types\/Claim.swift",
-      "kind": "StringLiteral",
-      "offset": 358,
-      "length": 5,
-      "value": "\"DIDSDK.Claim\""
-    },
-    {
       "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/serviceapi\/requests\/id-routing\/UpdateAppInstanceRequest.swift",
       "kind": "BooleanLiteral",
       "offset": 326,
@@ -28077,27 +29437,6 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/serviceapi\/requests\/id-routing\/UpdateAppInstanceRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 170,
-      "length": 24,
-      "value": "\"DIDSDK.UpdateAppInstanceRequest\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/serviceapi\/requests\/id-routing\/UpdateAppInstanceRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 170,
-      "length": 24,
-      "value": "\"DIDSDK.UpdateAppInstanceRequest\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/serviceapi\/message\/ExpireClaimMessage.swift",
-      "kind": "StringLiteral",
-      "offset": 148,
-      "length": 18,
-      "value": "\"DIDSDK.ExpireClaimMessage\""
-    },
-    {
       "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/types\/ClaimReference.swift",
       "kind": "IntegerLiteral",
       "offset": 482,
@@ -28112,20 +29451,6 @@
       "value": "15"
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/types\/ClaimReference.swift",
-      "kind": "StringLiteral",
-      "offset": 380,
-      "length": 14,
-      "value": "\"DIDSDK.ClaimReference\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/types\/VerifiableCredentialID\/Claims.swift",
-      "kind": "StringLiteral",
-      "offset": 231,
-      "length": 10,
-      "value": "\"vp_token\""
-    },
-    {
       "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/types\/VerifiableCredentialID\/Claims.swift",
       "kind": "StringLiteral",
       "offset": 231,
@@ -28138,20 +29463,6 @@
       "offset": 434,
       "length": 25,
       "value": "\"presentation_definition\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/types\/VerifiableCredentialID\/Claims.swift",
-      "kind": "StringLiteral",
-      "offset": 434,
-      "length": 25,
-      "value": "\"presentation_definition\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/types\/VerifiableCredentialID\/Claims.swift",
-      "kind": "StringLiteral",
-      "offset": 671,
-      "length": 19,
-      "value": "\"input_descriptors\""
     },
     {
       "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/types\/VerifiableCredentialID\/Claims.swift",
@@ -28287,32 +29598,11 @@
       "value": "\".secp256k1.sign.private\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/types\/Share.swift",
-      "kind": "StringLiteral",
-      "offset": 319,
-      "length": 5,
-      "value": "\"DIDSDK.Share\""
-    },
-    {
       "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/types\/Request.swift",
       "kind": "Array",
       "offset": 206,
       "length": 72,
       "value": "[\"id\", \"applicationInstance\", \"createdAt\", \"expiresAt\", \"registeredApp\"]"
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/types\/Request.swift",
-      "kind": "StringLiteral",
-      "offset": 134,
-      "length": 7,
-      "value": "\"DIDSDK.Request\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/types\/Relationship.swift",
-      "kind": "StringLiteral",
-      "offset": 141,
-      "length": 12,
-      "value": "\"DIDSDK.Relationship\""
     },
     {
       "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/serviceapi\/requests\/id-routing\/AppInstanceRequest.swift",
@@ -28341,20 +29631,6 @@
       "offset": 1455,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/serviceapi\/requests\/id-routing\/AppInstanceRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 172,
-      "length": 18,
-      "value": "\"DIDSDK.AppInstanceRequest\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/types\/Challenge.swift",
-      "kind": "StringLiteral",
-      "offset": 620,
-      "length": 9,
-      "value": "\"DIDSDK.Challenge\""
     },
     {
       "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/types\/VerifiableCredentialID\/Parser\/JwkDidParser.swift",
@@ -28420,48 +29696,6 @@
       "value": "\"cloud.pingidentity.com\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/types\/VerifiableCredentialID\/LongFormDocument.swift",
-      "kind": "StringLiteral",
-      "offset": 146,
-      "length": 16,
-      "value": "\"DIDSDK.LongFormDocument\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/types\/VerifiableCredentialID\/LongFormDocument.swift",
-      "kind": "StringLiteral",
-      "offset": 1207,
-      "length": 10,
-      "value": "\"DIDSDK.SuffixData\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/types\/VerifiableCredentialID\/LongFormDocument.swift",
-      "kind": "StringLiteral",
-      "offset": 2427,
-      "length": 5,
-      "value": "\"DIDSDK.Delta\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/types\/VerifiableCredentialID\/LongFormDocument.swift",
-      "kind": "StringLiteral",
-      "offset": 3587,
-      "length": 5,
-      "value": "\"DIDSDK.Patch\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/types\/VerifiableCredentialID\/LongFormDocument.swift",
-      "kind": "StringLiteral",
-      "offset": 5061,
-      "length": 8,
-      "value": "\"DIDSDK.Document\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/types\/VerifiableCredentialID\/LongFormDocument.swift",
-      "kind": "StringLiteral",
-      "offset": 5822,
-      "length": 7,
-      "value": "\"DIDSDK.Service\""
-    },
-    {
       "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/serviceapi\/message\/constants\/MessageValue.swift",
       "kind": "StringLiteral",
       "offset": 169,
@@ -28518,13 +29752,6 @@
       "value": "\"credential_issuer\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/types\/IssuerMetadata\/CredentialIssuerMetadata.swift",
-      "kind": "StringLiteral",
-      "offset": 748,
-      "length": 19,
-      "value": "\"credential_issuer\""
-    },
-    {
       "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/serviceapi\/message\/ShareMessage.swift",
       "kind": "Array",
       "offset": 212,
@@ -28532,13 +29759,6 @@
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/serviceapi\/message\/ShareMessage.swift",
-      "kind": "StringLiteral",
-      "offset": 143,
-      "length": 16,
-      "value": "\"DIDSDK.ShareDataMessage\""
-    },
-    {
       "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/types\/VerifiableCredentialID\/Registration.swift",
       "kind": "StringLiteral",
       "offset": 374,
@@ -28565,48 +29785,6 @@
       "offset": 496,
       "length": 12,
       "value": "\"vp_formats\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/types\/VerifiableCredentialID\/Registration.swift",
-      "kind": "StringLiteral",
-      "offset": 374,
-      "length": 16,
-      "value": "\"client_purpose\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/types\/VerifiableCredentialID\/Registration.swift",
-      "kind": "StringLiteral",
-      "offset": 422,
-      "length": 32,
-      "value": "\"subject_syntax_types_supported\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/types\/VerifiableCredentialID\/Registration.swift",
-      "kind": "StringLiteral",
-      "offset": 469,
-      "length": 13,
-      "value": "\"client_name\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/types\/VerifiableCredentialID\/Registration.swift",
-      "kind": "StringLiteral",
-      "offset": 496,
-      "length": 12,
-      "value": "\"vp_formats\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/types\/VerifiableCredentialID\/VPFormats.swift",
-      "kind": "StringLiteral",
-      "offset": 245,
-      "length": 8,
-      "value": "\"jwt_vp\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/types\/VerifiableCredentialID\/VPFormats.swift",
-      "kind": "StringLiteral",
-      "offset": 263,
-      "length": 8,
-      "value": "\"jwt_vc\""
     },
     {
       "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/types\/VerifiableCredentialID\/VPFormats.swift",
@@ -28630,25 +29808,18 @@
       "value": "\"IOS\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/types\/ApplicationInstance.swift",
-      "kind": "StringLiteral",
-      "offset": 727,
-      "length": 19,
-      "value": "\"DIDSDK.ApplicationInstance\""
-    },
-    {
       "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/serviceapi\/IdRegistrationServiceApi.swift",
       "kind": "StringLiteral",
       "offset": 363,
-      "length": 23,
-      "value": "\"\/distributedid\/claims\""
+      "length": 22,
+      "value": "\"distributedid\/claims\""
     },
     {
       "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/serviceapi\/IdRegistrationServiceApi.swift",
       "kind": "StringLiteral",
-      "offset": 428,
-      "length": 30,
-      "value": "\"\/distributedid\/claims\/%@::%@\""
+      "offset": 427,
+      "length": 29,
+      "value": "\"distributedid\/claims\/%@::%@\""
     },
     {
       "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/types\/SaltedData.swift",
@@ -28656,13 +29827,6 @@
       "offset": 241,
       "length": 1,
       "value": "1"
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/types\/SaltedData.swift",
-      "kind": "StringLiteral",
-      "offset": 132,
-      "length": 10,
-      "value": "\"DIDSDK.SaltedData\""
     },
     {
       "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/extensions\/Formatter+iso8601.swift",
@@ -28684,27 +29848,6 @@
       "offset": 429,
       "length": 32,
       "value": "\"yyyy-MM-dd'T'HH:mm:ss.SSSXXXXX\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/serviceapi\/requests\/id-registration\/BaseClaimRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 147,
-      "length": 16,
-      "value": "\"DIDSDK.BaseClaimRequest\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/serviceapi\/response\/id-routing\/CreateAppInstanceResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 173,
-      "length": 25,
-      "value": "\"DIDSDK.CreateAppInstanceResponse\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/serviceapi\/message\/RequestShareMessage.swift",
-      "kind": "StringLiteral",
-      "offset": 149,
-      "length": 19,
-      "value": "\"DIDSDK.RequestShareMessage\""
     },
     {
       "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/types\/VerifiableCredentialID\/DID\/JwkDid.swift",
@@ -28882,13 +30025,6 @@
       "value": "\"ping\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/serviceapi\/message\/ClaimMessage.swift",
-      "kind": "StringLiteral",
-      "offset": 142,
-      "length": 12,
-      "value": "\"DIDSDK.ClaimMessage\""
-    },
-    {
       "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/types\/VerifiableCredentialID\/VerifiableCredentialGenerator.swift",
       "kind": "StringLiteral",
       "offset": 245,
@@ -28908,13 +30044,6 @@
       "offset": 362,
       "length": 4,
       "value": "\"vc\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/serviceapi\/response\/id-routing\/JwksResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 158,
-      "length": 12,
-      "value": "\"DIDSDK.JwksResponse\""
     },
     {
       "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/serviceapi\/NetworkReachability.swift",
@@ -28943,55 +30072,6 @@
       "offset": 2780,
       "length": 10,
       "value": "\"@context\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/types\/Credential.swift",
-      "kind": "StringLiteral",
-      "offset": 2780,
-      "length": 10,
-      "value": "\"@context\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/types\/ClaimRegistration.swift",
-      "kind": "StringLiteral",
-      "offset": 146,
-      "length": 17,
-      "value": "\"DIDSDK.ClaimRegistration\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/types\/Mail.swift",
-      "kind": "StringLiteral",
-      "offset": 133,
-      "length": 4,
-      "value": "\"DIDSDK.Mail\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/types\/VerifiableCredentialID\/VerifiablePresentationRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 4312,
-      "length": 15,
-      "value": "\"response_type\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/types\/VerifiableCredentialID\/VerifiablePresentationRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 4344,
-      "length": 15,
-      "value": "\"response_mode\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/types\/VerifiableCredentialID\/VerifiablePresentationRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 4386,
-      "length": 11,
-      "value": "\"client_id\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/types\/VerifiableCredentialID\/VerifiablePresentationRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 4413,
-      "length": 14,
-      "value": "\"redirect_uri\""
     },
     {
       "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/DIDSDK\/types\/VerifiableCredentialID\/VerifiablePresentationRequest.swift",

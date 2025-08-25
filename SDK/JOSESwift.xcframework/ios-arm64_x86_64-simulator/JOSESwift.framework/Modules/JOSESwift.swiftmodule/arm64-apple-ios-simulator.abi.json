@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "JOSESwift",
+    "printedName": "JOSESwift",
     "children": [
       {
         "kind": "Import",
@@ -234,6 +234,20 @@
         ],
         "enumRawTypeName": "String",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -562,6 +576,20 @@
         ],
         "enumRawTypeName": "UInt8",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -1222,6 +1250,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CompactSerializable",
@@ -1891,6 +1933,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CompactSerializable",
             "printedName": "CompactSerializable",
             "usr": "s:9JOSESwift19CompactSerializableP",
@@ -1999,6 +2055,22 @@
         "moduleName": "JOSESwift",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -2053,6 +2125,22 @@
         "moduleName": "JOSESwift",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -2129,6 +2217,22 @@
         "moduleName": "JOSESwift",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -2141,6 +2245,22 @@
         "moduleName": "JOSESwift",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -2296,6 +2416,22 @@
         "moduleName": "JOSESwift",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -2414,6 +2550,22 @@
         "sugared_genericSig": "<KeyType>",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -3019,6 +3171,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -3444,6 +3610,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -3793,6 +3973,20 @@
         ],
         "enumRawTypeName": "String",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -4257,6 +4451,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -4470,6 +4678,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -4593,6 +4817,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -5195,6 +5435,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "JWK",
@@ -5870,6 +6124,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "JWK",
@@ -7307,6 +7575,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "DataConvertible",
             "printedName": "DataConvertible",
             "usr": "s:9JOSESwift15DataConvertibleP",
@@ -7530,6 +7812,20 @@
         ],
         "enumRawTypeName": "String",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -8191,6 +8487,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Encodable",
             "printedName": "Encodable",
             "usr": "s:SE",
@@ -8332,6 +8642,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Error",
             "printedName": "Error",
             "usr": "s:s5ErrorP",
@@ -8388,6 +8712,22 @@
         "moduleName": "JOSESwift",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -8587,6 +8927,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -8601,6 +8957,22 @@
         "declAttributes": [
           "AccessControl",
           "Available"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -8615,6 +8987,22 @@
         "declAttributes": [
           "AccessControl",
           "Available"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -9942,6 +10330,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Error",
             "printedName": "Error",
             "usr": "s:s5ErrorP",
@@ -10080,6 +10482,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -10191,6 +10609,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -10743,6 +11177,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "JWK",
@@ -11369,6 +11817,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "JWK",
             "printedName": "JWK",
             "usr": "s:9JOSESwift3JWKP",
@@ -11479,6 +11941,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "DataConvertible",
@@ -13327,6 +13803,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "DataConvertible",
             "printedName": "DataConvertible",
             "usr": "s:9JOSESwift15DataConvertibleP",
@@ -13967,6 +14457,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -14386,6 +14890,9 @@
             "moduleName": "JOSESwift",
             "static": true,
             "implicit": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
             "accessors": [
               {
                 "kind": "Accessor",
@@ -14428,6 +14935,20 @@
         ],
         "enumRawTypeName": "String",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -14664,6 +15185,20 @@
         ],
         "enumRawTypeName": "String",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -14903,6 +15438,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -15064,6 +15613,20 @@
         ],
         "enumRawTypeName": "String",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -15266,6 +15829,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -15352,6 +15929,22 @@
         "moduleName": "JOSESwift",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -15453,6 +16046,22 @@
         "moduleName": "JOSESwift",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -15495,6 +16104,22 @@
         "moduleName": "JOSESwift",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -15578,6 +16203,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -16081,6 +16722,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "JWK",
             "printedName": "JWK",
             "usr": "s:9JOSESwift3JWKP",
@@ -16204,6 +16859,22 @@
         "moduleName": "JOSESwift",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -16306,6 +16977,22 @@
         "moduleName": "JOSESwift",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -17671,6 +18358,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -17792,6 +18495,22 @@
         "moduleName": "JOSESwift",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -17967,6 +18686,22 @@
         "moduleName": "JOSESwift",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -17981,6 +18716,22 @@
         "declAttributes": [
           "AccessControl",
           "Available"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -17995,6 +18746,22 @@
         "declAttributes": [
           "AccessControl",
           "Available"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -18527,6 +19294,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Encodable",
             "printedName": "Encodable",
             "usr": "s:SE",
@@ -19009,6 +19790,20 @@
         ],
         "isExternal": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "_CFObject",
@@ -19964,6 +20759,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "ExpressibleAsECPrivateKeyComponents",
             "printedName": "ExpressibleAsECPrivateKeyComponents",
             "usr": "s:9JOSESwift35ExpressibleAsECPrivateKeyComponentsP",
@@ -20102,97 +20911,6 @@
       "offset": 1626,
       "length": 7,
       "value": "\"P-521\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JOSESwift\/CryptoImplementation\/EC.swift",
-      "kind": "StringLiteral",
-      "offset": 1578,
-      "length": 7,
-      "value": "\"P-256\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JOSESwift\/CryptoImplementation\/EC.swift",
-      "kind": "StringLiteral",
-      "offset": 1602,
-      "length": 7,
-      "value": "\"P-384\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JOSESwift\/CryptoImplementation\/EC.swift",
-      "kind": "StringLiteral",
-      "offset": 1626,
-      "length": 7,
-      "value": "\"P-521\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JOSESwift\/CryptoImplementation\/EC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3661,
-      "length": 4,
-      "value": "0x02"
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JOSESwift\/CryptoImplementation\/EC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3692,
-      "length": 4,
-      "value": "0x03"
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JOSESwift\/CryptoImplementation\/EC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3721,
-      "length": 4,
-      "value": "0x04"
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JOSESwift\/CryptoImplementation\/EC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3767,
-      "length": 4,
-      "value": "0x06"
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JOSESwift\/CryptoImplementation\/EC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3794,
-      "length": 4,
-      "value": "0x07"
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JOSESwift\/CryptoImplementation\/EC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3661,
-      "length": 4,
-      "value": "0x02"
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JOSESwift\/CryptoImplementation\/EC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3692,
-      "length": 4,
-      "value": "0x03"
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JOSESwift\/CryptoImplementation\/EC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3721,
-      "length": 4,
-      "value": "0x04"
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JOSESwift\/CryptoImplementation\/EC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3767,
-      "length": 4,
-      "value": "0x06"
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JOSESwift\/CryptoImplementation\/EC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3794,
-      "length": 4,
-      "value": "0x07"
     },
     {
       "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JOSESwift\/CryptoImplementation\/EC.swift",
@@ -20351,90 +21069,6 @@
     {
       "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JOSESwift\/JWKParameters.swift",
       "kind": "StringLiteral",
-      "offset": 1112,
-      "length": 5,
-      "value": "\"kty\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JOSESwift\/JWKParameters.swift",
-      "kind": "StringLiteral",
-      "offset": 1136,
-      "length": 5,
-      "value": "\"use\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JOSESwift\/JWKParameters.swift",
-      "kind": "StringLiteral",
-      "offset": 1167,
-      "length": 9,
-      "value": "\"key_ops\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JOSESwift\/JWKParameters.swift",
-      "kind": "StringLiteral",
-      "offset": 1198,
-      "length": 5,
-      "value": "\"alg\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JOSESwift\/JWKParameters.swift",
-      "kind": "StringLiteral",
-      "offset": 1229,
-      "length": 5,
-      "value": "\"kid\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JOSESwift\/JWKParameters.swift",
-      "kind": "StringLiteral",
-      "offset": 1254,
-      "length": 5,
-      "value": "\"x5u\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JOSESwift\/JWKParameters.swift",
-      "kind": "StringLiteral",
-      "offset": 1292,
-      "length": 5,
-      "value": "\"x5c\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JOSESwift\/JWKParameters.swift",
-      "kind": "StringLiteral",
-      "offset": 1339,
-      "length": 5,
-      "value": "\"x5t\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JOSESwift\/JWKParameters.swift",
-      "kind": "StringLiteral",
-      "offset": 1388,
-      "length": 10,
-      "value": "\"x5t#S256\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JOSESwift\/JWKParameters.swift",
-      "kind": "StringLiteral",
-      "offset": 1710,
-      "length": 3,
-      "value": "\"n\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JOSESwift\/JWKParameters.swift",
-      "kind": "StringLiteral",
-      "offset": 1734,
-      "length": 3,
-      "value": "\"e\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JOSESwift\/JWKParameters.swift",
-      "kind": "StringLiteral",
-      "offset": 1765,
-      "length": 3,
-      "value": "\"d\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JOSESwift\/JWKParameters.swift",
-      "kind": "StringLiteral",
       "offset": 1710,
       "length": 3,
       "value": "\"n\""
@@ -20459,41 +21093,6 @@
       "offset": 1979,
       "length": 3,
       "value": "\"k\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JOSESwift\/JWKParameters.swift",
-      "kind": "StringLiteral",
-      "offset": 1979,
-      "length": 3,
-      "value": "\"k\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JOSESwift\/JWKParameters.swift",
-      "kind": "StringLiteral",
-      "offset": 2174,
-      "length": 5,
-      "value": "\"crv\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JOSESwift\/JWKParameters.swift",
-      "kind": "StringLiteral",
-      "offset": 2193,
-      "length": 3,
-      "value": "\"x\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JOSESwift\/JWKParameters.swift",
-      "kind": "StringLiteral",
-      "offset": 2210,
-      "length": 3,
-      "value": "\"y\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JOSESwift\/JWKParameters.swift",
-      "kind": "StringLiteral",
-      "offset": 2236,
-      "length": 3,
-      "value": "\"d\""
     },
     {
       "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JOSESwift\/JWKParameters.swift",
@@ -20557,27 +21156,6 @@
       "offset": 1341,
       "length": 2,
       "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JOSESwift\/JWK.swift",
-      "kind": "StringLiteral",
-      "offset": 1574,
-      "length": 5,
-      "value": "\"RSA\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JOSESwift\/JWK.swift",
-      "kind": "StringLiteral",
-      "offset": 1595,
-      "length": 5,
-      "value": "\"oct\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JOSESwift\/JWK.swift",
-      "kind": "StringLiteral",
-      "offset": 1615,
-      "length": 4,
-      "value": "\"EC\""
     },
     {
       "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JOSESwift\/JWK.swift",
@@ -20666,34 +21244,6 @@
     {
       "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JOSESwift\/Algorithms.swift",
       "kind": "StringLiteral",
-      "offset": 2125,
-      "length": 8,
-      "value": "\"RSA1_5\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JOSESwift\/Algorithms.swift",
-      "kind": "StringLiteral",
-      "offset": 2225,
-      "length": 10,
-      "value": "\"RSA-OAEP\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JOSESwift\/Algorithms.swift",
-      "kind": "StringLiteral",
-      "offset": 2334,
-      "length": 14,
-      "value": "\"RSA-OAEP-256\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JOSESwift\/Algorithms.swift",
-      "kind": "StringLiteral",
-      "offset": 2753,
-      "length": 5,
-      "value": "\"dir\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JOSESwift\/Algorithms.swift",
-      "kind": "StringLiteral",
       "offset": 3028,
       "length": 15,
       "value": "\"A256CBC-HS512\""
@@ -20704,34 +21254,6 @@
       "offset": 3126,
       "length": 15,
       "value": "\"A128CBC-HS256\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JOSESwift\/Algorithms.swift",
-      "kind": "StringLiteral",
-      "offset": 3028,
-      "length": 15,
-      "value": "\"A256CBC-HS512\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JOSESwift\/Algorithms.swift",
-      "kind": "StringLiteral",
-      "offset": 3126,
-      "length": 15,
-      "value": "\"A128CBC-HS256\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JOSESwift\/Algorithms.swift",
-      "kind": "StringLiteral",
-      "offset": 3983,
-      "length": 5,
-      "value": "\"DEF\""
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JOSESwift\/Algorithms.swift",
-      "kind": "StringLiteral",
-      "offset": 4005,
-      "length": 6,
-      "value": "\"NONE\""
     },
     {
       "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JOSESwift\/Algorithms.swift",
