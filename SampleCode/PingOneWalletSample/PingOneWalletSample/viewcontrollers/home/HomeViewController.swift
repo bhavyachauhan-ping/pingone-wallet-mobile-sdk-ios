@@ -26,7 +26,7 @@ public class HomeViewController: UIViewController, BaseViewController {
         super.viewDidLoad()
         self.overrideUserInterfaceStyle = .light
         self.setNavBarAppearance()
-        
+        self.updateNavigationBar()
         self.setCredentialsList()
         self.refreshHomeView()
     }
@@ -35,6 +35,31 @@ public class HomeViewController: UIViewController, BaseViewController {
         super.viewWillAppear(animated)
         self.viewModel.observeCredentialUpdates {
             self.refreshCredentialsList()
+        }
+    }
+    
+    func updateNavigationBar() {
+        let infoButton =  UIButton(type: .system)
+        infoButton.tintColor = .white
+        infoButton.setImage(UIImage(named: "icon_info"), for: .normal)
+        infoButton.addTarget(self, action: #selector(self.onInfoClicked(_:)), for: .touchUpInside)
+        
+        let longPressGesture = UILongPressGestureRecognizer(target: self, action: #selector(self.onInfoLongPress(_:)))
+        longPressGesture.minimumPressDuration = 1
+        infoButton.addGestureRecognizer(longPressGesture)
+        
+        
+        let barbutton = UIBarButtonItem(customView: infoButton)
+        self.navigationItem.rightBarButtonItem = barbutton
+    }
+    
+    @objc func onInfoClicked(_ sender: UIButton?) {
+        self.walletCoordinator.showAppInfo()
+    }
+
+    @objc func onInfoLongPress(_ gesture: UILongPressGestureRecognizer) {
+        if gesture.state == .began {
+            self.walletCoordinator.showCommandDialog()
         }
     }
     
@@ -55,7 +80,7 @@ public class HomeViewController: UIViewController, BaseViewController {
             self.scanQrButton.isHidden = !self.pairButton.isHidden
             
             //MARK: Comment if not using push notifications
-            if let appDelegate = UIApplication.shared.delegate as? AppDelegate, appDelegate.pnToken == nil {
+            if let appDelegate = UIApplication.shared.delegate as? AppDelegate {
                 appDelegate.registerForAPNS()
             }
             

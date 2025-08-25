@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/JoseTools-Swift.h</key>
 		<data>
-		cYowbyZiu9+cO86MGvsmwPZALfs=
+		j8OcA2oErSm4kXcjCeeQ7GZ1yIA=
 		</data>
 		<key>Headers/JoseTools.h</key>
 		<data>
@@ -14,27 +14,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		dfB0cI2uvYgTEuDJuuEAhiWgwUY=
+		UBy0SO6wMJzJn5PWLPPXTqwFnJ0=
 		</data>
 		<key>Modules/JoseTools.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		xtPPiaxSYa/Oq/YUFpaUB4kUPXM=
+		IHqO/CBKfzJLuqnqgLiqeIRFsMY=
 		</data>
 		<key>Modules/JoseTools.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		2nJcCRU/s1HEVAybfW0MZh0fqhw=
+		yFwrs2jE4Ha7r6UvShbVOPJImeM=
 		</data>
 		<key>Modules/JoseTools.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		/eoq0jWV2IXkfPpmSSuF9PTfBK8=
+		Q2syjBfALqOxOGFlRap0uDTYhc0=
 		</data>
 		<key>Modules/JoseTools.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		2nJcCRU/s1HEVAybfW0MZh0fqhw=
+		yFwrs2jE4Ha7r6UvShbVOPJImeM=
 		</data>
 		<key>Modules/JoseTools.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		26WV8/hrRr0MTwZoRXOr7zGwoaI=
+		f8mleC7qBvdWmbt9V0ubA6wwhR4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -47,7 +47,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uqYP5q4VSMd077FhwfTiJh9plQCX5DMlcOpHEVZ3ptc=
+			D+tJrcrRgvwjXwGV8FlSHU7oD8aUajAnf+2TWj4+nPo=
 			</data>
 		</dict>
 		<key>Headers/JoseTools.h</key>
@@ -61,35 +61,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			V8GKHAAoNTVwQUamjLWW01ZFP0NIJCEJb+0Pyi3BA3E=
+			hwoiriovvu9cJE3mlynwebhlQUgI09smvSt1tzbQjXg=
 			</data>
 		</dict>
 		<key>Modules/JoseTools.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5dmd+yJlC5pmSPCxHAMxNY9YQAIlSLDOXTXov9f37nM=
+			DO3FGkFCgJO858x5o4X9Fz2wCsNLpKohZfk5+TuWDcI=
 			</data>
 		</dict>
 		<key>Modules/JoseTools.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UkBY4IyeEbh6j+Y++2jWP64QxVwwVandpV/8eI3kTMw=
+			OE4ka03jCJpqQeFug3FU+WD3AIP3AZdSSz8GpPszn4c=
 			</data>
 		</dict>
 		<key>Modules/JoseTools.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5dmd+yJlC5pmSPCxHAMxNY9YQAIlSLDOXTXov9f37nM=
+			DO3FGkFCgJO858x5o4X9Fz2wCsNLpKohZfk5+TuWDcI=
 			</data>
 		</dict>
 		<key>Modules/JoseTools.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aEx2sSGFsoAMad4UTf1did5vsTevCqiAQNkCY+TG5DQ=
+			cjv7FulpZNx9UCuK18Fwp+MBDArgGQxdTY+5TVxj2CY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

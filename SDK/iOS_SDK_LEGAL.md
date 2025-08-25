@@ -11,6 +11,7 @@ This release contains software written by Ping Identity plus software written by
 | JOSESwift | Airside Mobile | 1.0 |
 | secp256k1.swift | GigaBitcoin | 2.0 |
 | secp256k1 | bitcoin-core | 3.0 |
+| AnyCodable | Flight-School | 4.0 |
 
 
 **Notice**
@@ -274,6 +275,25 @@ Copyright (c) 2013 Pieter Wuille
 **License:**
 
 https://github.com/bitcoin-core/secp256k1/blob/master/COPYING
+
+**Software License**
+
+See a copy of license in [Section 2.0](#mit) above
+
+**4.0 AnyCodable**
+
+**Modifications:**
+
+Modified the library to rename the package
+
+**Copyright:**
+
+Copyright 2018 Read Evaluate Press, LLC
+
+
+**License:**
+
+https://github.com/Flight-School/AnyCodable/blob/master/LICENSE.md
 
 **Software License**
 

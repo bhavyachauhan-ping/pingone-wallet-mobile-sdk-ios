@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "libsecp256k1",
+    "printedName": "libsecp256k1",
     "children": [
       {
         "kind": "Import",
@@ -304,6 +304,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "ContiguousBytes",
@@ -622,6 +636,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -874,6 +902,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sequence",
             "printedName": "Sequence",
             "usr": "s:ST",
@@ -1020,6 +1062,22 @@
         "moduleName": "libsecp256k1",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -1197,6 +1255,22 @@
                 "moduleName": "libsecp256k1",
                 "declAttributes": [
                   "AccessControl"
+                ],
+                "conformances": [
+                  {
+                    "kind": "Conformance",
+                    "name": "Copyable",
+                    "printedName": "Copyable",
+                    "usr": "s:s8CopyableP",
+                    "mangledName": "$ss8CopyableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Escapable",
+                    "printedName": "Escapable",
+                    "usr": "s:s9EscapableP",
+                    "mangledName": "$ss9EscapableP"
+                  }
                 ]
               },
               {
@@ -1293,6 +1367,22 @@
                 "moduleName": "libsecp256k1",
                 "declAttributes": [
                   "AccessControl"
+                ],
+                "conformances": [
+                  {
+                    "kind": "Conformance",
+                    "name": "Copyable",
+                    "printedName": "Copyable",
+                    "usr": "s:s8CopyableP",
+                    "mangledName": "$ss8CopyableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Escapable",
+                    "printedName": "Escapable",
+                    "usr": "s:s9EscapableP",
+                    "mangledName": "$ss9EscapableP"
+                  }
                 ]
               },
               {
@@ -1610,6 +1700,22 @@
                 "moduleName": "libsecp256k1",
                 "declAttributes": [
                   "AccessControl"
+                ],
+                "conformances": [
+                  {
+                    "kind": "Conformance",
+                    "name": "Copyable",
+                    "printedName": "Copyable",
+                    "usr": "s:s8CopyableP",
+                    "mangledName": "$ss8CopyableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Escapable",
+                    "printedName": "Escapable",
+                    "usr": "s:s9EscapableP",
+                    "mangledName": "$ss9EscapableP"
+                  }
                 ]
               }
             ],
@@ -1617,7 +1723,23 @@
             "usr": "s:12libsecp256k19secp256k1O12KeyAgreementO",
             "mangledName": "$s12libsecp256k19secp256k1O12KeyAgreementO",
             "moduleName": "libsecp256k1",
-            "isFromExtension": true
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
           },
           {
             "kind": "TypeDecl",
@@ -1763,6 +1885,22 @@
                 "moduleName": "libsecp256k1",
                 "declAttributes": [
                   "AccessControl"
+                ],
+                "conformances": [
+                  {
+                    "kind": "Conformance",
+                    "name": "Copyable",
+                    "printedName": "Copyable",
+                    "usr": "s:s8CopyableP",
+                    "mangledName": "$ss8CopyableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Escapable",
+                    "printedName": "Escapable",
+                    "usr": "s:s9EscapableP",
+                    "mangledName": "$ss9EscapableP"
+                  }
                 ]
               },
               {
@@ -1866,7 +2004,23 @@
                 "declAttributes": [
                   "RawDocComment"
                 ],
-                "isFromExtension": true
+                "isFromExtension": true,
+                "conformances": [
+                  {
+                    "kind": "Conformance",
+                    "name": "Copyable",
+                    "printedName": "Copyable",
+                    "usr": "s:s8CopyableP",
+                    "mangledName": "$ss8CopyableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Escapable",
+                    "printedName": "Escapable",
+                    "usr": "s:s9EscapableP",
+                    "mangledName": "$ss9EscapableP"
+                  }
+                ]
               },
               {
                 "kind": "TypeDecl",
@@ -2164,6 +2318,20 @@
                 "conformances": [
                   {
                     "kind": "Conformance",
+                    "name": "Copyable",
+                    "printedName": "Copyable",
+                    "usr": "s:s8CopyableP",
+                    "mangledName": "$ss8CopyableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Escapable",
+                    "printedName": "Escapable",
+                    "usr": "s:s9EscapableP",
+                    "mangledName": "$ss9EscapableP"
+                  },
+                  {
+                    "kind": "Conformance",
                     "name": "ContiguousBytes",
                     "printedName": "ContiguousBytes",
                     "usr": "s:10Foundation15ContiguousBytesP",
@@ -2176,7 +2344,23 @@
             "usr": "s:12libsecp256k19secp256k1O8RecoveryO",
             "mangledName": "$s12libsecp256k19secp256k1O8RecoveryO",
             "moduleName": "libsecp256k1",
-            "isFromExtension": true
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
           },
           {
             "kind": "TypeDecl",
@@ -2481,6 +2665,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "OptionSet",
                 "printedName": "OptionSet",
                 "children": [
@@ -2778,6 +2976,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -2869,7 +3081,23 @@
             "declAttributes": [
               "UsableFromInline"
             ],
-            "isFromExtension": true
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
           },
           {
             "kind": "TypeDecl",
@@ -2926,7 +3154,23 @@
             "declAttributes": [
               "UsableFromInline"
             ],
-            "isFromExtension": true
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
           },
           {
             "kind": "TypeDecl",
@@ -3324,6 +3568,20 @@
                   "RawDocComment"
                 ],
                 "conformances": [
+                  {
+                    "kind": "Conformance",
+                    "name": "Copyable",
+                    "printedName": "Copyable",
+                    "usr": "s:s8CopyableP",
+                    "mangledName": "$ss8CopyableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Escapable",
+                    "printedName": "Escapable",
+                    "usr": "s:s9EscapableP",
+                    "mangledName": "$ss9EscapableP"
+                  },
                   {
                     "kind": "Conformance",
                     "name": "Equatable",
@@ -3746,6 +4004,22 @@
                 "declAttributes": [
                   "AccessControl",
                   "RawDocComment"
+                ],
+                "conformances": [
+                  {
+                    "kind": "Conformance",
+                    "name": "Copyable",
+                    "printedName": "Copyable",
+                    "usr": "s:s8CopyableP",
+                    "mangledName": "$ss8CopyableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Escapable",
+                    "printedName": "Escapable",
+                    "usr": "s:s9EscapableP",
+                    "mangledName": "$ss9EscapableP"
+                  }
                 ]
               },
               {
@@ -3930,6 +4204,22 @@
                 "declAttributes": [
                   "AccessControl",
                   "RawDocComment"
+                ],
+                "conformances": [
+                  {
+                    "kind": "Conformance",
+                    "name": "Copyable",
+                    "printedName": "Copyable",
+                    "usr": "s:s8CopyableP",
+                    "mangledName": "$ss8CopyableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Escapable",
+                    "printedName": "Escapable",
+                    "usr": "s:s9EscapableP",
+                    "mangledName": "$ss9EscapableP"
+                  }
                 ]
               },
               {
@@ -4106,6 +4396,20 @@
                 "moduleName": "libsecp256k1",
                 "isFromExtension": true,
                 "conformances": [
+                  {
+                    "kind": "Conformance",
+                    "name": "Copyable",
+                    "printedName": "Copyable",
+                    "usr": "s:s8CopyableP",
+                    "mangledName": "$ss8CopyableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Escapable",
+                    "printedName": "Escapable",
+                    "usr": "s:s9EscapableP",
+                    "mangledName": "$ss9EscapableP"
+                  },
                   {
                     "kind": "Conformance",
                     "name": "ContiguousBytes",
@@ -4330,7 +4634,23 @@
                 "usr": "s:12libsecp256k19secp256k1O7SigningO13SchnorrSignerV",
                 "mangledName": "$s12libsecp256k19secp256k1O7SigningO13SchnorrSignerV",
                 "moduleName": "libsecp256k1",
-                "isFromExtension": true
+                "isFromExtension": true,
+                "conformances": [
+                  {
+                    "kind": "Conformance",
+                    "name": "Copyable",
+                    "printedName": "Copyable",
+                    "usr": "s:s8CopyableP",
+                    "mangledName": "$ss8CopyableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Escapable",
+                    "printedName": "Escapable",
+                    "usr": "s:s9EscapableP",
+                    "mangledName": "$ss9EscapableP"
+                  }
+                ]
               },
               {
                 "kind": "TypeDecl",
@@ -4458,7 +4778,23 @@
                 "usr": "s:12libsecp256k19secp256k1O7SigningO16SchnorrValidatorV",
                 "mangledName": "$s12libsecp256k19secp256k1O7SigningO16SchnorrValidatorV",
                 "moduleName": "libsecp256k1",
-                "isFromExtension": true
+                "isFromExtension": true,
+                "conformances": [
+                  {
+                    "kind": "Conformance",
+                    "name": "Copyable",
+                    "printedName": "Copyable",
+                    "usr": "s:s8CopyableP",
+                    "mangledName": "$ss8CopyableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Escapable",
+                    "printedName": "Escapable",
+                    "usr": "s:s9EscapableP",
+                    "mangledName": "$ss9EscapableP"
+                  }
+                ]
               },
               {
                 "kind": "TypeDecl",
@@ -4780,6 +5116,20 @@
                 "conformances": [
                   {
                     "kind": "Conformance",
+                    "name": "Copyable",
+                    "printedName": "Copyable",
+                    "usr": "s:s8CopyableP",
+                    "mangledName": "$ss8CopyableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Escapable",
+                    "printedName": "Escapable",
+                    "usr": "s:s9EscapableP",
+                    "mangledName": "$ss9EscapableP"
+                  },
+                  {
+                    "kind": "Conformance",
                     "name": "ContiguousBytes",
                     "printedName": "ContiguousBytes",
                     "usr": "s:10Foundation15ContiguousBytesP",
@@ -4921,7 +5271,23 @@
                 "usr": "s:12libsecp256k19secp256k1O7SigningO11ECDSASignerV",
                 "mangledName": "$s12libsecp256k19secp256k1O7SigningO11ECDSASignerV",
                 "moduleName": "libsecp256k1",
-                "isFromExtension": true
+                "isFromExtension": true,
+                "conformances": [
+                  {
+                    "kind": "Conformance",
+                    "name": "Copyable",
+                    "printedName": "Copyable",
+                    "usr": "s:s8CopyableP",
+                    "mangledName": "$ss8CopyableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Escapable",
+                    "printedName": "Escapable",
+                    "usr": "s:s9EscapableP",
+                    "mangledName": "$ss9EscapableP"
+                  }
+                ]
               },
               {
                 "kind": "TypeDecl",
@@ -5005,7 +5371,23 @@
                 "usr": "s:12libsecp256k19secp256k1O7SigningO14ECDSAValidatorV",
                 "mangledName": "$s12libsecp256k19secp256k1O7SigningO14ECDSAValidatorV",
                 "moduleName": "libsecp256k1",
-                "isFromExtension": true
+                "isFromExtension": true,
+                "conformances": [
+                  {
+                    "kind": "Conformance",
+                    "name": "Copyable",
+                    "printedName": "Copyable",
+                    "usr": "s:s8CopyableP",
+                    "mangledName": "$ss8CopyableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Escapable",
+                    "printedName": "Escapable",
+                    "usr": "s:s9EscapableP",
+                    "mangledName": "$ss9EscapableP"
+                  }
+                ]
               }
             ],
             "declKind": "Enum",
@@ -5015,7 +5397,23 @@
             "declAttributes": [
               "RawDocComment"
             ],
-            "isFromExtension": true
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
           },
           {
             "kind": "TypeDecl",
@@ -5208,7 +5606,23 @@
             "declAttributes": [
               "UsableFromInline"
             ],
-            "isFromExtension": true
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
           }
         ],
         "declKind": "Enum",
@@ -5218,6 +5632,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -5598,6 +6028,22 @@
         "declAttributes": [
           "UsableFromInline",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -6121,6 +6567,22 @@
         "declAttributes": [
           "UsableFromInline",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -6360,6 +6822,22 @@
         "declAttributes": [
           "UsableFromInline",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -6683,6 +7161,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Digest",
             "printedName": "Digest",
             "usr": "s:12libsecp256k16DigestP",
@@ -6866,7 +7358,23 @@
           "Available",
           "Available"
         ],
-        "isExternal": true
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -7367,6 +7875,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "ReferenceConvertible",
             "printedName": "ReferenceConvertible",
             "children": [
@@ -7494,7 +8016,23 @@
         "declKind": "Struct",
         "usr": "c:@SA@secp256k1_ecdsa_signature",
         "moduleName": "secp256k1Wrapper",
-        "isExternal": true
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -7544,7 +8082,23 @@
         "declKind": "Struct",
         "usr": "c:@SA@secp256k1_ecdsa_recoverable_signature",
         "moduleName": "secp256k1Wrapper",
-        "isExternal": true
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -7650,6 +8204,20 @@
         ],
         "isExternal": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -8190,18 +8758,137 @@
       "value": "\"0\""
     },
     {
+      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/libsecp256k1\/BytesUtil.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1234,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/libsecp256k1\/BytesUtil.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1436,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/libsecp256k1\/BytesUtil.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1460,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/libsecp256k1\/BytesUtil.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1465,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/libsecp256k1\/BytesUtil.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1506,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/libsecp256k1\/BytesUtil.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1549,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/libsecp256k1\/BytesUtil.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1557,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/libsecp256k1\/BytesUtil.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1604,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/libsecp256k1\/BytesUtil.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2339,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/libsecp256k1\/BytesUtil.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2402,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/libsecp256k1\/BytesUtil.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2407,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/libsecp256k1\/BytesUtil.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2583,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/libsecp256k1\/BytesUtil.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2607,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/libsecp256k1\/BytesUtil.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2612,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/libsecp256k1\/BytesUtil.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2653,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/libsecp256k1\/BytesUtil.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2696,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/libsecp256k1\/BytesUtil.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2704,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/libsecp256k1\/BytesUtil.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2751,
+      "length": 1,
+      "value": "4"
+    },
+    {
       "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/libsecp256k1\/SecureBytes.swift",
       "kind": "IntegerLiteral",
       "offset": 15104,
       "length": 1,
       "value": "0"
-    },
-    {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/libsecp256k1\/secp256k1.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1545,
-      "length": 12,
-      "value": "1"
     },
     {
       "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/libsecp256k1\/secp256k1.swift",

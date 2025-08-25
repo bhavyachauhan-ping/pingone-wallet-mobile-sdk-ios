@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
 // swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name CommunicationManager
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 @_exported import CommunicationManager
 import Foundation
 import Swift
@@ -30,6 +31,11 @@ extension CommunicationManager.JsonSerializableProtocol where Self : Communicati
 public typealias JsonSerializable = CommunicationManager.JsonSerializableObject & CommunicationManager.JsonSerializableProtocol
 extension Swift.Mirror {
   public func toDictionary() throws -> [Swift.String : Any]
+}
+public class NetworkRetryManager {
+  public init(maxRetries: Swift.Int = 5, timeUnit: Foundation.TimeInterval = 1, maxDelay: Foundation.TimeInterval = 30)
+  public func handle(urlRequest: Foundation.URLRequest, completion: @escaping (_ responseData: Foundation.Data?, _ error: CommunicationManager.RequestError?) -> Swift.Void)
+  @objc deinit
 }
 public enum RequestError : Swift.Error {
   case cannotCreateURL(_: Swift.String)
