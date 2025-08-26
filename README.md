@@ -14,7 +14,7 @@ The sample app can not run on a simulator and works only on a device because the
 1.  Ensure your Xcode is set up with a provisioning profile and a signing certificate to be able to install the app on a device. See the Apple Xcode document  [Run an app on a device](https://help.apple.com/xcode/mac/current/#/dev5a825a1ca) for more information.
 2.  Clone or download the [PingOne Wallet SDK for iOS sample code](https://github.com/pingidentity/pingone-verify-mobile-sdk-ios) to your machine and open the `PingOneWalletSample.xcodeproj` file located under the `PingOneWalletSample` directory.
 
-You'll find all other XCFramework dependencies required for PingOne Wallet in the [`PingOneWalletSample/dependencies`](SDK) directory.
+You'll find all other XCFramework dependencies required for PingOne Wallet in the [`PingOneWalletSample/Common`](SDK) directory.
 
 3.  To run the sample app, select the scheme `PingOneWalletSample` --> , and click the Run button.
 ​

@@ -815,7 +815,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = PingOneWalletSample/PingOneWalletSample.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 27;
 				DEVELOPMENT_TEAM = YZYUGL7S48;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PingOneWalletSample/Info.plist;
@@ -831,7 +831,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.0.1;
+				MARKETING_VERSION = 2.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.pingidentity.pingonewallet.sample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -850,7 +850,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = PingOneWalletSample/PingOneWalletSample.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 27;
 				DEVELOPMENT_TEAM = YZYUGL7S48;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PingOneWalletSample/Info.plist;
@@ -866,7 +866,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.0.1;
+				MARKETING_VERSION = 2.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.pingidentity.pingonewallet.sample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
