@@ -34,6 +34,14 @@ The PingOne Wallet SDK for iOS relies on XCFramework components. You'll need to 
     a. Click on your target in the project navigator.
 
     b. Drag and drop all the xcframework dependencies to the section _Frameworks, Libraries, and Embedded Content_ in Xcode.
+    
+            * PingOneVerify.xcframework
+    
+            * BlinkID.xcframework
+    
+            * VoiceSdk.xcframework
+    
+            * NeoInterfaces.xcframework
 
 3. Add SVGKit via Swift Package Manager
 
@@ -42,6 +50,25 @@ The PingOne Wallet SDK for iOS relies on XCFramework components. You'll need to 
     b. Type `https://github.com/SVGKit/SVGKit` in the search bar. 
 
     c. Choose `Dependency Role` and download the dependency. 
+    
+    
+## ⚠️ IMPORTANT: Using Wallet and Verify SDKs in the Same Application
+
+When integrating both the Wallet SDK and Verify SDK into a single application, note that they share common dependencies located in the SDK/Common directory. These shared modules contain utilities and components required by both SDKs.
+
+### Dependencies Configuration
+
+- If using **only the Wallet SDK** → include `Wallet/SDK/Common`
+- If using **only the Verify SDK** → include `Verify/SDK/Common`
+- If using **both Wallet and Verify** → include inly once instance of `SDK/Common` (preferably from `Wallet/SDK/Common`)
+
+** ⚠️ DO NOT INCLUDE BOTH `Wallet/SDK/Common` & `Verify/SDK/Common` in your project**
+
+Including multiple copies of SDK/Common can result in:
+
+  - Build time errors (e.g. duplicate symbols)
+  - Runtime crashes due to conflicting modules
+  - Increased binary size due to unnecessary duplication
 
 ###  Installation and configuration
 
