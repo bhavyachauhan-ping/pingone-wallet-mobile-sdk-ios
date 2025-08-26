@@ -8727,6 +8727,54 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "SG",
+            "printedName": "SG",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PingOneRegion",
+                "printedName": "PingOneWallet.PingOneRegion",
+                "usr": "s:13PingOneWallet0aB6RegionV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13PingOneWallet0aB6RegionV2SGACvpZ",
+            "mangledName": "$s13PingOneWallet0aB6RegionV2SGACvpZ",
+            "moduleName": "PingOneWallet",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PingOneRegion",
+                    "printedName": "PingOneWallet.PingOneRegion",
+                    "usr": "s:13PingOneWallet0aB6RegionV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13PingOneWallet0aB6RegionV2SGACvgZ",
+                "mangledName": "$s13PingOneWallet0aB6RegionV2SGACvgZ",
+                "moduleName": "PingOneWallet",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "initForUrl",
             "printedName": "initForUrl(_:)",
@@ -14188,455 +14236,462 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/WalletMessage\/WalletMessageType.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/WalletMessage\/WalletMessageType.swift",
       "kind": "StringLiteral",
       "offset": 182,
       "length": 16,
       "value": "\"pairingPayload\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/WalletMessage\/WalletMessageType.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/WalletMessage\/WalletMessageType.swift",
       "kind": "StringLiteral",
       "offset": 224,
       "length": 14,
       "value": "\"pairingEvent\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/WalletMessage\/WalletMessageType.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/WalletMessage\/WalletMessageType.swift",
       "kind": "StringLiteral",
       "offset": 267,
       "length": 17,
       "value": "\"credentialEvent\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/WalletMessage\/WalletMessageType.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/WalletMessage\/WalletMessageType.swift",
       "kind": "StringLiteral",
       "offset": 304,
       "length": 9,
       "value": "\"unknown\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/utils\/PollingHelper.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/utils\/PollingHelper.swift",
       "kind": "FloatLiteral",
       "offset": 270,
       "length": 3,
       "value": "5.0"
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/client\/PingOneWalletClient+Builder.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/client\/PingOneWalletClient+Builder.swift",
       "kind": "Dictionary",
       "offset": 514,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/client\/PingOneWalletClient+Builder.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/client\/PingOneWalletClient+Builder.swift",
       "kind": "BooleanLiteral",
       "offset": 630,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/client\/PingOneWalletClient+Builder.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/client\/PingOneWalletClient+Builder.swift",
       "kind": "BooleanLiteral",
       "offset": 712,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/client\/PingOneWalletClient+Builder.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/client\/PingOneWalletClient+Builder.swift",
       "kind": "BooleanLiteral",
       "offset": 1434,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/client\/PingOneWalletClient+Builder.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/client\/PingOneWalletClient+Builder.swift",
       "kind": "BooleanLiteral",
       "offset": 4187,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/WalletMessage\/credential\/CredentialMessage.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/WalletMessage\/credential\/CredentialMessage.swift",
       "kind": "StringLiteral",
       "offset": 1017,
       "length": 20,
       "value": "\"CREDENTIAL_UPDATED\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/client\/PingOneWalletConstants.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/client\/PingOneWalletConstants.swift",
       "kind": "StringLiteral",
       "offset": 225,
       "length": 29,
       "value": "\"https:\/\/api.pingone.com\/v1\/\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/client\/PingOneWalletConstants.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/client\/PingOneWalletConstants.swift",
       "kind": "StringLiteral",
-      "offset": 300,
+      "offset": 304,
       "length": 28,
       "value": "\"https:\/\/api.pingone.ca\/v1\/\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/client\/PingOneWalletConstants.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/client\/PingOneWalletConstants.swift",
       "kind": "StringLiteral",
-      "offset": 376,
+      "offset": 380,
       "length": 30,
       "value": "\"https:\/\/api.pingone.asia\/v1\/\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/client\/PingOneWalletConstants.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/client\/PingOneWalletConstants.swift",
       "kind": "StringLiteral",
-      "offset": 456,
+      "offset": 460,
       "length": 32,
       "value": "\"https:\/\/api.pingone.com.au\/v1\/\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/client\/PingOneWalletConstants.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/client\/PingOneWalletConstants.swift",
       "kind": "StringLiteral",
-      "offset": 538,
+      "offset": 542,
       "length": 28,
       "value": "\"https:\/\/api.pingone.eu\/v1\/\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/storage\/DataRepository.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/client\/PingOneWalletConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 623,
+      "length": 28,
+      "value": "\"https:\/\/api.pingone.sg\/v1\/\""
+    },
+    {
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/storage\/DataRepository.swift",
       "kind": "Array",
       "offset": 469,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/storage\/DataRepository.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/storage\/DataRepository.swift",
       "kind": "Array",
       "offset": 515,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/storage\/DataRepository.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/storage\/DataRepository.swift",
       "kind": "Dictionary",
       "offset": 562,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/storage\/DataRepository.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/storage\/DataRepository.swift",
       "kind": "Dictionary",
       "offset": 623,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/CredentialRequest.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/CredentialRequest.swift",
       "kind": "StringLiteral",
       "offset": 183,
       "length": 14,
       "value": "\"redirect_url\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/storage\/StorageKeys.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/storage\/StorageKeys.swift",
       "kind": "StringLiteral",
       "offset": 185,
       "length": 27,
       "value": "\"app_unique_id_storage_key\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/storage\/StorageKeys.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/storage\/StorageKeys.swift",
       "kind": "StringLiteral",
       "offset": 257,
       "length": 21,
       "value": "\"regions_storage_key\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/storage\/StorageKeys.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/storage\/StorageKeys.swift",
       "kind": "StringLiteral",
       "offset": 336,
       "length": 34,
       "value": "\"application_instance_storage_key\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/storage\/StorageKeys.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/storage\/StorageKeys.swift",
       "kind": "StringLiteral",
       "offset": 421,
       "length": 19,
       "value": "\"claim_storage_key\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/storage\/StorageKeys.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/storage\/StorageKeys.swift",
       "kind": "StringLiteral",
       "offset": 501,
       "length": 29,
       "value": "\"claim_reference_storage_key\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/storage\/StorageKeys.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/storage\/StorageKeys.swift",
       "kind": "StringLiteral",
       "offset": 587,
       "length": 20,
       "value": "\"claims_storage_key\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/storage\/StorageKeys.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/storage\/StorageKeys.swift",
       "kind": "StringLiteral",
       "offset": 664,
       "length": 25,
       "value": "\"self_claims_storage_key\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/storage\/StorageKeys.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/storage\/StorageKeys.swift",
       "kind": "StringLiteral",
       "offset": 753,
       "length": 32,
       "value": "\"unsolicited_claims_storage_key\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/storage\/StorageKeys.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/storage\/StorageKeys.swift",
       "kind": "StringLiteral",
       "offset": 845,
       "length": 28,
       "value": "\"revoked_claims_storage_key\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/appEvents\/CredentialEvent.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/appEvents\/CredentialEvent.swift",
       "kind": "StringLiteral",
       "offset": 135,
       "length": 12,
       "value": "\"credential\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/client\/PingOneWalletClient.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/client\/PingOneWalletClient.swift",
       "kind": "BooleanLiteral",
       "offset": 449,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/client\/PingOneWalletClient.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/client\/PingOneWalletClient.swift",
       "kind": "BooleanLiteral",
       "offset": 781,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/client\/PingOneWalletClient.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/client\/PingOneWalletClient.swift",
       "kind": "BooleanLiteral",
       "offset": 7961,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/client\/PingOneWalletClient.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/client\/PingOneWalletClient.swift",
       "kind": "BooleanLiteral",
       "offset": 8732,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/client\/PingOneWalletClient.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/client\/PingOneWalletClient.swift",
       "kind": "BooleanLiteral",
       "offset": 9424,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/appEvents\/AppEventType.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/appEvents\/AppEventType.swift",
       "kind": "StringLiteral",
       "offset": 142,
       "length": 19,
       "value": "\"issuance_accepted\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/appEvents\/AppEventType.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/appEvents\/AppEventType.swift",
       "kind": "StringLiteral",
       "offset": 204,
       "length": 21,
       "value": "\"revocation_accepted\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/appEvents\/AppEventType.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/appEvents\/AppEventType.swift",
       "kind": "StringLiteral",
       "offset": 256,
       "length": 20,
       "value": "\"credential_deleted\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/ClaimKeys.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/ClaimKeys.swift",
       "kind": "StringLiteral",
       "offset": 119,
       "length": 11,
       "value": "\"CardImage\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/ClaimKeys.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/ClaimKeys.swift",
       "kind": "StringLiteral",
       "offset": 164,
       "length": 10,
       "value": "\"CardType\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/client\/NetworkManager.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/client\/NetworkManager.swift",
       "kind": "BooleanLiteral",
       "offset": 969,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/RequestedKey.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/RequestedKey.swift",
       "kind": "StringLiteral",
       "offset": 206,
       "length": 44,
       "value": "\"([\\w. ]*)[\\(]*([\\w,\\s]*)[\\)]*->([\\w\\W]*)\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/RequestedKey.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/RequestedKey.swift",
       "kind": "StringLiteral",
       "offset": 364,
       "length": 67,
       "value": "\"([\\w\\W]*)(?:\\((?=[\\w\\W]*(?=\\)->)))([^>()]+)(?:\\)->|->)([\\w\\W]*)\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/RequestedKey.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/RequestedKey.swift",
       "kind": "StringLiteral",
       "offset": 490,
       "length": 33,
       "value": "\"([\\w\\W]*)(?:\\)->|->)([\\w\\W]*)\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/WalletEvents\/WalletEvent.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/WalletEvents\/WalletEvent.swift",
       "kind": "StringLiteral",
       "offset": 793,
       "length": 7,
       "value": "\"error\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/WalletEvents\/WalletEvent.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/WalletEvents\/WalletEvent.swift",
       "kind": "StringLiteral",
       "offset": 820,
       "length": 9,
       "value": "\"pairing\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/WalletEvents\/WalletEvent.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/WalletEvents\/WalletEvent.swift",
       "kind": "StringLiteral",
       "offset": 859,
       "length": 19,
       "value": "\"credential_update\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/WalletEvents\/WalletEvent.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/WalletEvents\/WalletEvent.swift",
       "kind": "StringLiteral",
       "offset": 898,
       "length": 9,
       "value": "\"unknown\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/client\/ApplicationInstanceManager.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/client\/ApplicationInstanceManager.swift",
       "kind": "Dictionary",
       "offset": 383,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/client\/ApplicationInstanceManager.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/client\/ApplicationInstanceManager.swift",
       "kind": "Dictionary",
       "offset": 457,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/client\/ApplicationInstanceManager.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/client\/ApplicationInstanceManager.swift",
       "kind": "Dictionary",
       "offset": 521,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/WalletMessage\/pairing\/PairingPayload.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/WalletMessage\/pairing\/PairingPayload.swift",
       "kind": "StringLiteral",
       "offset": 522,
       "length": 5,
       "value": "\"IOS\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/WalletMessage\/pairing\/PairingPayload.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/WalletMessage\/pairing\/PairingPayload.swift",
       "kind": "StringLiteral",
       "offset": 559,
       "length": 7,
       "value": "\"Apple\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/WalletMessage\/pairing\/PairingPayload.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/WalletMessage\/pairing\/PairingPayload.swift",
       "kind": "BooleanLiteral",
       "offset": 627,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/WalletMessage\/pairing\/PairingPayload.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/WalletMessage\/pairing\/PairingPayload.swift",
       "kind": "StringLiteral",
       "offset": 728,
       "length": 20,
       "value": "\"CFBundleIdentifier\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/WalletMessage\/pairing\/PairingPayload.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/WalletMessage\/pairing\/PairingPayload.swift",
       "kind": "StringLiteral",
       "offset": 845,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/WalletMessage\/pairing\/PairingPayload.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/WalletMessage\/pairing\/PairingPayload.swift",
       "kind": "BooleanLiteral",
       "offset": 1025,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/WalletMessage\/pairing\/PairingPayload.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/WalletMessage\/pairing\/PairingPayload.swift",
       "kind": "BooleanLiteral",
       "offset": 1831,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/WalletMessage\/pairing\/PairingMessage.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/WalletMessage\/pairing\/PairingMessage.swift",
       "kind": "StringLiteral",
       "offset": 1136,
       "length": 18,
       "value": "\"PAIRING_RESPONSE\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/WalletMessage\/pairing\/PairingMessage.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/WalletMessage\/pairing\/PairingMessage.swift",
       "kind": "StringLiteral",
       "offset": 1182,
       "length": 17,
       "value": "\"PAIRING_REQUEST\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/PushNotificationBody.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/PushNotificationBody.swift",
       "kind": "StringLiteral",
       "offset": 318,
       "length": 15,
       "value": "\"credential.id\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/PushNotificationBody.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/PushNotificationBody.swift",
       "kind": "StringLiteral",
       "offset": 352,
       "length": 17,
       "value": "\"credential.name\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/utils\/ClaimPresentationHelper.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/utils\/ClaimPresentationHelper.swift",
       "kind": "BooleanLiteral",
       "offset": 3456,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/PresentationRequest.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/PingOneWallet\/types\/PresentationRequest.swift",
       "kind": "StringLiteral",
       "offset": 247,
       "length": 24,

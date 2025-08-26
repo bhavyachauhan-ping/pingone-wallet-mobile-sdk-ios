@@ -14,27 +14,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		5lNe+yH6KWyVTSrgNXg90iqUslg=
+		lYjMwLdXO4+01yARTZ6QA2mVyqY=
 		</data>
 		<key>Modules/PingOneWallet.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		uD2Q3ebAy6dRl5CYHxtn1tEsghc=
+		vBXX5eNfUxOVCxpNOXIER+HpozI=
 		</data>
 		<key>Modules/PingOneWallet.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		QuUwYMf7lIZNftXsmW9/RTkzHuY=
+		VnEb1Jwbt0ByGs0kqgYpNau7Z3Q=
 		</data>
 		<key>Modules/PingOneWallet.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		FxBskkWNat0STZ0wvzu6k+M28js=
+		bSqoXTc/TOqbDU7pdizEmcC0Y9k=
 		</data>
 		<key>Modules/PingOneWallet.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		QuUwYMf7lIZNftXsmW9/RTkzHuY=
+		VnEb1Jwbt0ByGs0kqgYpNau7Z3Q=
 		</data>
 		<key>Modules/PingOneWallet.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		FKttgHMutKGV6agvTsCYzVWxuig=
+		QkC4fE661nDqT7/5U/G0xK0P5og=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -61,35 +61,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cpeYPIgO2yJPPuGrjMl/3paI0SZrzUhO2XEANfleun4=
+			7t3G3zVwWgg3OuPvbiNvpYIdOibxmmypagd5FscxZwA=
 			</data>
 		</dict>
 		<key>Modules/PingOneWallet.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FUgEL5O7dACnQr0HFhbPHW6HdzJBG7ITRMb9LVI9Qc4=
+			ZDwHIRCMTrX5cXN8INv2chmayXxTybX5TifviEPzMHo=
 			</data>
 		</dict>
 		<key>Modules/PingOneWallet.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gXd0HcOxE7Tz+lD1UdBAZ9gQkOE9YSnNOdZYvtQdFks=
+			mrj8K62llNQ3QnmnrhpHAGFAZtCNcZdKfxYEFPzqI9I=
 			</data>
 		</dict>
 		<key>Modules/PingOneWallet.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FUgEL5O7dACnQr0HFhbPHW6HdzJBG7ITRMb9LVI9Qc4=
+			ZDwHIRCMTrX5cXN8INv2chmayXxTybX5TifviEPzMHo=
 			</data>
 		</dict>
 		<key>Modules/PingOneWallet.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			r7hfCKeJxZXCNEN0L7PB5nc/oMrhkcMde0MpHottcL8=
+			FULoKYceXbnatmfuOcTuSZz6x6KY2habax9dr/tZEG8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

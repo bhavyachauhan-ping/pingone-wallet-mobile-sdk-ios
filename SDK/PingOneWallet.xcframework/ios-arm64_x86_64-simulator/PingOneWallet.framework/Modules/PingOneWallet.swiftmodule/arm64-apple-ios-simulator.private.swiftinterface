@@ -288,6 +288,7 @@ public struct PingOneRegion : Swift.Hashable, Swift.Codable {
   public static let APAC: PingOneWallet.PingOneRegion
   public static let APAC_2: PingOneWallet.PingOneRegion
   public static let CA: PingOneWallet.PingOneRegion
+  public static let SG: PingOneWallet.PingOneRegion
   public static func initForUrl(_ requestUrl: Swift.String) -> PingOneWallet.PingOneRegion
   public func getKey() -> Swift.String
   public func getUrl() -> Swift.String
