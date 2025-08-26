@@ -6372,13 +6372,6 @@
         "moduleName": "CryptoTools"
       },
       {
-        "kind": "Import",
-        "name": "CommunicationManager",
-        "printedName": "CommunicationManager",
-        "declKind": "Import",
-        "moduleName": "CryptoTools"
-      },
-      {
         "kind": "TypeDecl",
         "name": "EncryptedDefaults",
         "printedName": "EncryptedDefaults",
@@ -9635,13 +9628,6 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "CommunicationManager",
-        "printedName": "CommunicationManager",
-        "declKind": "Import",
-        "moduleName": "CryptoTools"
-      },
-      {
         "kind": "TypeDecl",
         "name": "Key",
         "printedName": "Key",
@@ -11484,13 +11470,6 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "CommunicationManager",
-        "printedName": "CommunicationManager",
-        "declKind": "Import",
-        "moduleName": "CryptoTools"
-      },
-      {
         "kind": "TypeDecl",
         "name": "CryptoData",
         "printedName": "CryptoData",
@@ -12118,6 +12097,25 @@
             "declKind": "Func",
             "usr": "s:SS11CryptoToolsE17base64urlToBase64SSyF",
             "mangledName": "$sSS11CryptoToolsE17base64urlToBase64SSyF",
+            "moduleName": "CryptoTools",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "convertToData",
+            "printedName": "convertToData()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS11CryptoToolsE13convertToData10Foundation0E0VyF",
+            "mangledName": "$sSS11CryptoToolsE13convertToData10Foundation0E0VyF",
             "moduleName": "CryptoTools",
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -12918,6 +12916,25 @@
           },
           {
             "kind": "Function",
+            "name": "convertToString",
+            "printedName": "convertToString()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Foundation4DataV11CryptoToolsE15convertToStringSSyF",
+            "mangledName": "$s10Foundation4DataV11CryptoToolsE15convertToStringSSyF",
+            "moduleName": "CryptoTools",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "md5",
             "printedName": "md5()",
             "children": [
@@ -13481,100 +13498,100 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/CryptoTools\/Crypto\/Asymmetric\/Keys\/SecKey+InitFromData.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/CryptoTools\/Crypto\/Asymmetric\/Keys\/SecKey+InitFromData.swift",
       "kind": "BooleanLiteral",
-      "offset": 2113,
+      "offset": 2127,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/CryptoTools\/EncryptedFiles\/EncryptedFile.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/CryptoTools\/EncryptedFiles\/EncryptedFile.swift",
       "kind": "BooleanLiteral",
       "offset": 211,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/CryptoTools\/Crypto\/Asymmetric\/Secp256k1\/Secp256k1Utils.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/CryptoTools\/Crypto\/Asymmetric\/Secp256k1\/Secp256k1Utils.swift",
       "kind": "StringLiteral",
       "offset": 192,
       "length": 11,
       "value": "\"secp256k1\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/CryptoTools\/EncryptedKeyManager\/EncryptedKeyManager.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/CryptoTools\/EncryptedKeyManager\/EncryptedKeyManager.swift",
       "kind": "StringLiteral",
       "offset": 222,
       "length": 9,
       "value": "\".public\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/CryptoTools\/EncryptedKeyManager\/EncryptedKeyManager.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/CryptoTools\/EncryptedKeyManager\/EncryptedKeyManager.swift",
       "kind": "StringLiteral",
       "offset": 277,
       "length": 10,
       "value": "\".private\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/CryptoTools\/EncryptedKeyManager\/EncryptedKeyManager.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/CryptoTools\/EncryptedKeyManager\/EncryptedKeyManager.swift",
       "kind": "StringLiteral",
       "offset": 336,
       "length": 33,
       "value": "\"encrypteddefaults.ecsec.256.key\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/CryptoTools\/EncryptedKeyManager\/EncryptedKeyManager.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/CryptoTools\/EncryptedKeyManager\/EncryptedKeyManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 4957,
+      "offset": 4964,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/CryptoTools\/EncryptedKeyManager\/EncryptedKeyManager.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/CryptoTools\/EncryptedKeyManager\/EncryptedKeyManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 6177,
+      "offset": 6184,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/CryptoTools\/EncryptedDefaults\/EncryptedDefaultsConfigurator.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/CryptoTools\/EncryptedDefaults\/EncryptedDefaultsConfigurator.swift",
       "kind": "BooleanLiteral",
       "offset": 218,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/CryptoTools\/EncryptedDefaults\/EncryptedDefaultsConfigurator.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/CryptoTools\/EncryptedDefaults\/EncryptedDefaultsConfigurator.swift",
       "kind": "StringLiteral",
       "offset": 329,
       "length": 23,
       "value": "\"CryptoToolsKeyService\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/CryptoTools\/Crypto\/Asymmetric\/Keys\/Key.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/CryptoTools\/Crypto\/Asymmetric\/Keys\/Key.swift",
       "kind": "IntegerLiteral",
-      "offset": 4820,
+      "offset": 4799,
       "length": 3,
       "value": "256"
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/CryptoTools\/Crypto\/Asymmetric\/Keys\/Key.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/CryptoTools\/Crypto\/Asymmetric\/Keys\/Key.swift",
       "kind": "IntegerLiteral",
-      "offset": 4922,
+      "offset": 4901,
       "length": 4,
       "value": "2048"
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/CryptoTools\/Crypto\/Asymmetric\/Keys\/Key.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/CryptoTools\/Crypto\/Asymmetric\/Keys\/Key.swift",
       "kind": "IntegerLiteral",
-      "offset": 5040,
+      "offset": 5019,
       "length": 3,
       "value": "256"
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/CryptoTools\/Crypto\/Asymmetric\/Keys\/Key.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/CryptoTools\/Crypto\/Asymmetric\/Keys\/Key.swift",
       "kind": "StringLiteral",
-      "offset": 5052,
+      "offset": 5031,
       "length": 11,
       "value": "\"secp256k1\""
     }

@@ -1070,6 +1070,1187 @@
       },
       {
         "kind": "Import",
+        "name": "CryptoTools",
+        "printedName": "CryptoTools",
+        "declKind": "Import",
+        "moduleName": "JoseTools"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JoseTools",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "URLRequestBody",
+        "printedName": "URLRequestBody",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(body:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequestBody",
+                "printedName": "JoseTools.URLRequestBody",
+                "usr": "s:9JoseTools14URLRequestBodyC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9JoseTools14URLRequestBodyC4bodyACSDySSypG_tcfc",
+            "mangledName": "$s9JoseTools14URLRequestBodyC4bodyACSDySSypG_tcfc",
+            "moduleName": "JoseTools",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequestBody",
+                "printedName": "JoseTools.URLRequestBody",
+                "usr": "s:9JoseTools14URLRequestBodyC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9JoseTools14URLRequestBodyCACycfc",
+            "mangledName": "$s9JoseTools14URLRequestBodyCACycfc",
+            "moduleName": "JoseTools",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Subscript",
+            "name": "subscript",
+            "printedName": "subscript(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Subscript",
+            "usr": "s:9JoseTools14URLRequestBodyCyypSgSScip",
+            "mangledName": "$s9JoseTools14URLRequestBodyCyypSgSScip",
+            "moduleName": "JoseTools",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JoseTools14URLRequestBodyCyypSgSScig",
+                "mangledName": "$s9JoseTools14URLRequestBodyCyypSgSScig",
+                "moduleName": "JoseTools",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JoseTools14URLRequestBodyCyypSgSScis",
+                "mangledName": "$s9JoseTools14URLRequestBodyCyypSgSScis",
+                "moduleName": "JoseTools",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JoseTools14URLRequestBodyCyypSgSSciM",
+                "mangledName": "$s9JoseTools14URLRequestBodyCyypSgSSciM",
+                "moduleName": "JoseTools",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setBodyParam",
+            "printedName": "setBodyParam(_:bodyValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequestBody",
+                "printedName": "JoseTools.URLRequestBody",
+                "usr": "s:9JoseTools14URLRequestBodyC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "any Swift.Decodable & Swift.Encodable"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9JoseTools14URLRequestBodyC03setD5Param_9bodyValueACSS_Se_SEptF",
+            "mangledName": "$s9JoseTools14URLRequestBodyC03setD5Param_9bodyValueACSS_Se_SEptF",
+            "moduleName": "JoseTools",
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getParams",
+            "printedName": "getParams()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9JoseTools14URLRequestBodyC9getParamsSDySSypGyF",
+            "mangledName": "$s9JoseTools14URLRequestBodyC9getParamsSDySSypGyF",
+            "moduleName": "JoseTools",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "isEmpty",
+            "printedName": "isEmpty",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JoseTools14URLRequestBodyC7isEmptySbvp",
+            "mangledName": "$s9JoseTools14URLRequestBodyC7isEmptySbvp",
+            "moduleName": "JoseTools",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JoseTools14URLRequestBodyC7isEmptySbvg",
+                "mangledName": "$s9JoseTools14URLRequestBodyC7isEmptySbvg",
+                "moduleName": "JoseTools",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JoseTools14URLRequestBodyC11descriptionSSvp",
+            "mangledName": "$s9JoseTools14URLRequestBodyC11descriptionSSvp",
+            "moduleName": "JoseTools",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JoseTools14URLRequestBodyC11descriptionSSvg",
+                "mangledName": "$s9JoseTools14URLRequestBodyC11descriptionSSvg",
+                "moduleName": "JoseTools",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "makeIterator",
+            "printedName": "makeIterator()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Iterator",
+                "printedName": "Swift.Dictionary<Swift.String, Any>.Iterator",
+                "usr": "s:SD8IteratorV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9JoseTools14URLRequestBodyC12makeIteratorSD0F0VySSyp_GyF",
+            "mangledName": "$s9JoseTools14URLRequestBodyC12makeIteratorSD0F0VySSyp_GyF",
+            "moduleName": "JoseTools",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9JoseTools14URLRequestBodyC",
+        "mangledName": "$s9JoseTools14URLRequestBodyC",
+        "moduleName": "JoseTools",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sequence",
+            "printedName": "Sequence",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(key: Swift.String, value: Any)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Iterator",
+                    "printedName": "Swift.Dictionary<Swift.String, Any>.Iterator",
+                    "usr": "s:SD8IteratorV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:ST",
+            "mangledName": "$sST"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "URLRequestHeader",
+        "printedName": "URLRequestHeader",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "header_content_type",
+            "printedName": "header_content_type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JoseTools16URLRequestHeaderC19header_content_typeSSvpZ",
+            "mangledName": "$s9JoseTools16URLRequestHeaderC19header_content_typeSSvpZ",
+            "moduleName": "JoseTools",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JoseTools16URLRequestHeaderC19header_content_typeSSvgZ",
+                "mangledName": "$s9JoseTools16URLRequestHeaderC19header_content_typeSSvgZ",
+                "moduleName": "JoseTools",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "header_content_type_json",
+            "printedName": "header_content_type_json",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JoseTools16URLRequestHeaderC24header_content_type_jsonSSvpZ",
+            "mangledName": "$s9JoseTools16URLRequestHeaderC24header_content_type_jsonSSvpZ",
+            "moduleName": "JoseTools",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JoseTools16URLRequestHeaderC24header_content_type_jsonSSvgZ",
+                "mangledName": "$s9JoseTools16URLRequestHeaderC24header_content_type_jsonSSvgZ",
+                "moduleName": "JoseTools",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "header_content_type_urlencoded",
+            "printedName": "header_content_type_urlencoded",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JoseTools16URLRequestHeaderC30header_content_type_urlencodedSSvpZ",
+            "mangledName": "$s9JoseTools16URLRequestHeaderC30header_content_type_urlencodedSSvpZ",
+            "moduleName": "JoseTools",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JoseTools16URLRequestHeaderC30header_content_type_urlencodedSSvgZ",
+                "mangledName": "$s9JoseTools16URLRequestHeaderC30header_content_type_urlencodedSSvgZ",
+                "moduleName": "JoseTools",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "header_content_type_jwks",
+            "printedName": "header_content_type_jwks",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JoseTools16URLRequestHeaderC24header_content_type_jwksSSvpZ",
+            "mangledName": "$s9JoseTools16URLRequestHeaderC24header_content_type_jwksSSvpZ",
+            "moduleName": "JoseTools",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JoseTools16URLRequestHeaderC24header_content_type_jwksSSvgZ",
+                "mangledName": "$s9JoseTools16URLRequestHeaderC24header_content_type_jwksSSvgZ",
+                "moduleName": "JoseTools",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "header_content_type_jwt",
+            "printedName": "header_content_type_jwt",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JoseTools16URLRequestHeaderC23header_content_type_jwtSSvpZ",
+            "mangledName": "$s9JoseTools16URLRequestHeaderC23header_content_type_jwtSSvpZ",
+            "moduleName": "JoseTools",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JoseTools16URLRequestHeaderC23header_content_type_jwtSSvgZ",
+                "mangledName": "$s9JoseTools16URLRequestHeaderC23header_content_type_jwtSSvgZ",
+                "moduleName": "JoseTools",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "header_content_type_text_plain",
+            "printedName": "header_content_type_text_plain",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JoseTools16URLRequestHeaderC30header_content_type_text_plainSSvpZ",
+            "mangledName": "$s9JoseTools16URLRequestHeaderC30header_content_type_text_plainSSvpZ",
+            "moduleName": "JoseTools",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JoseTools16URLRequestHeaderC30header_content_type_text_plainSSvgZ",
+                "mangledName": "$s9JoseTools16URLRequestHeaderC30header_content_type_text_plainSSvgZ",
+                "moduleName": "JoseTools",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(headers:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequestHeader",
+                "printedName": "JoseTools.URLRequestHeader",
+                "usr": "s:9JoseTools16URLRequestHeaderC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9JoseTools16URLRequestHeaderC7headersACSDyS2SG_tcfc",
+            "mangledName": "$s9JoseTools16URLRequestHeaderC7headersACSDyS2SG_tcfc",
+            "moduleName": "JoseTools",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequestHeader",
+                "printedName": "JoseTools.URLRequestHeader",
+                "usr": "s:9JoseTools16URLRequestHeaderC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9JoseTools16URLRequestHeaderCACycfc",
+            "mangledName": "$s9JoseTools16URLRequestHeaderCACycfc",
+            "moduleName": "JoseTools",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Subscript",
+            "name": "subscript",
+            "printedName": "subscript(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Subscript",
+            "usr": "s:9JoseTools16URLRequestHeaderCySSSgSScip",
+            "mangledName": "$s9JoseTools16URLRequestHeaderCySSSgSScip",
+            "moduleName": "JoseTools",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JoseTools16URLRequestHeaderCySSSgSScig",
+                "mangledName": "$s9JoseTools16URLRequestHeaderCySSSgSScig",
+                "moduleName": "JoseTools",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JoseTools16URLRequestHeaderCySSSgSScis",
+                "mangledName": "$s9JoseTools16URLRequestHeaderCySSSgSScis",
+                "moduleName": "JoseTools",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JoseTools16URLRequestHeaderCySSSgSSciM",
+                "mangledName": "$s9JoseTools16URLRequestHeaderCySSSgSSciM",
+                "moduleName": "JoseTools",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setHeaderField",
+            "printedName": "setHeaderField(_:headerValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequestHeader",
+                "printedName": "JoseTools.URLRequestHeader",
+                "usr": "s:9JoseTools16URLRequestHeaderC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9JoseTools16URLRequestHeaderC03setD5Field_11headerValueACSS_SStF",
+            "mangledName": "$s9JoseTools16URLRequestHeaderC03setD5Field_11headerValueACSS_SStF",
+            "moduleName": "JoseTools",
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "isEmpty",
+            "printedName": "isEmpty",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JoseTools16URLRequestHeaderC7isEmptySbvp",
+            "mangledName": "$s9JoseTools16URLRequestHeaderC7isEmptySbvp",
+            "moduleName": "JoseTools",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JoseTools16URLRequestHeaderC7isEmptySbvg",
+                "mangledName": "$s9JoseTools16URLRequestHeaderC7isEmptySbvg",
+                "moduleName": "JoseTools",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JoseTools16URLRequestHeaderC11descriptionSSvp",
+            "mangledName": "$s9JoseTools16URLRequestHeaderC11descriptionSSvp",
+            "moduleName": "JoseTools",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JoseTools16URLRequestHeaderC11descriptionSSvg",
+                "mangledName": "$s9JoseTools16URLRequestHeaderC11descriptionSSvg",
+                "moduleName": "JoseTools",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "makeIterator",
+            "printedName": "makeIterator()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Iterator",
+                "printedName": "Swift.Dictionary<Swift.String, Swift.String>.Iterator",
+                "usr": "s:SD8IteratorV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9JoseTools16URLRequestHeaderC12makeIteratorSD0F0VyS2S_GyF",
+            "mangledName": "$s9JoseTools16URLRequestHeaderC12makeIteratorSD0F0VyS2S_GyF",
+            "moduleName": "JoseTools",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9JoseTools16URLRequestHeaderC",
+        "mangledName": "$s9JoseTools16URLRequestHeaderC",
+        "moduleName": "JoseTools",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sequence",
+            "printedName": "Sequence",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(key: Swift.String, value: Swift.String)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Iterator",
+                    "printedName": "Swift.Dictionary<Swift.String, Swift.String>.Iterator",
+                    "usr": "s:SD8IteratorV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:ST",
+            "mangledName": "$sST"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -1089,13 +2270,6 @@
         "kind": "Import",
         "name": "CryptoTools",
         "printedName": "CryptoTools",
-        "declKind": "Import",
-        "moduleName": "JoseTools"
-      },
-      {
-        "kind": "Import",
-        "name": "CommunicationManager",
-        "printedName": "CommunicationManager",
         "declKind": "Import",
         "moduleName": "JoseTools"
       },
@@ -1526,6 +2700,339 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "JsonSerializeError",
+        "printedName": "JsonSerializeError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "missingRequiredInit",
+            "printedName": "missingRequiredInit",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(JoseTools.JsonSerializeError.Type) -> JoseTools.JsonSerializeError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JsonSerializeError",
+                    "printedName": "JoseTools.JsonSerializeError",
+                    "usr": "s:9JoseTools18JsonSerializeErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "JoseTools.JsonSerializeError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JsonSerializeError",
+                        "printedName": "JoseTools.JsonSerializeError",
+                        "usr": "s:9JoseTools18JsonSerializeErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9JoseTools18JsonSerializeErrorO19missingRequiredInityA2CmF",
+            "mangledName": "$s9JoseTools18JsonSerializeErrorO19missingRequiredInityA2CmF",
+            "moduleName": "JoseTools"
+          },
+          {
+            "kind": "Var",
+            "name": "failedToParseJson",
+            "printedName": "failedToParseJson",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(JoseTools.JsonSerializeError.Type) -> (Swift.String) -> JoseTools.JsonSerializeError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> JoseTools.JsonSerializeError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JsonSerializeError",
+                        "printedName": "JoseTools.JsonSerializeError",
+                        "usr": "s:9JoseTools18JsonSerializeErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(description: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "JoseTools.JsonSerializeError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JsonSerializeError",
+                        "printedName": "JoseTools.JsonSerializeError",
+                        "usr": "s:9JoseTools18JsonSerializeErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9JoseTools18JsonSerializeErrorO013failedToParseC0yACSS_tcACmF",
+            "mangledName": "$s9JoseTools18JsonSerializeErrorO013failedToParseC0yACSS_tcACmF",
+            "moduleName": "JoseTools"
+          },
+          {
+            "kind": "Var",
+            "name": "invalidJsonString",
+            "printedName": "invalidJsonString",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(JoseTools.JsonSerializeError.Type) -> JoseTools.JsonSerializeError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JsonSerializeError",
+                    "printedName": "JoseTools.JsonSerializeError",
+                    "usr": "s:9JoseTools18JsonSerializeErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "JoseTools.JsonSerializeError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JsonSerializeError",
+                        "printedName": "JoseTools.JsonSerializeError",
+                        "usr": "s:9JoseTools18JsonSerializeErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9JoseTools18JsonSerializeErrorO07invalidC6StringyA2CmF",
+            "mangledName": "$s9JoseTools18JsonSerializeErrorO07invalidC6StringyA2CmF",
+            "moduleName": "JoseTools"
+          },
+          {
+            "kind": "Var",
+            "name": "missingRequiredInformationForKey",
+            "printedName": "missingRequiredInformationForKey",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(JoseTools.JsonSerializeError.Type) -> (Swift.String) -> JoseTools.JsonSerializeError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> JoseTools.JsonSerializeError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JsonSerializeError",
+                        "printedName": "JoseTools.JsonSerializeError",
+                        "usr": "s:9JoseTools18JsonSerializeErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "JoseTools.JsonSerializeError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JsonSerializeError",
+                        "printedName": "JoseTools.JsonSerializeError",
+                        "usr": "s:9JoseTools18JsonSerializeErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9JoseTools18JsonSerializeErrorO32missingRequiredInformationForKeyyACSScACmF",
+            "mangledName": "$s9JoseTools18JsonSerializeErrorO32missingRequiredInformationForKeyyACSScACmF",
+            "moduleName": "JoseTools"
+          },
+          {
+            "kind": "Var",
+            "name": "errorDescription",
+            "printedName": "errorDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JoseTools18JsonSerializeErrorO16errorDescriptionSSSgvp",
+            "mangledName": "$s9JoseTools18JsonSerializeErrorO16errorDescriptionSSSgvp",
+            "moduleName": "JoseTools",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JoseTools18JsonSerializeErrorO16errorDescriptionSSSgvg",
+                "mangledName": "$s9JoseTools18JsonSerializeErrorO16errorDescriptionSSSgvg",
+                "moduleName": "JoseTools",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JsonSerializeError",
+                "printedName": "JoseTools.JsonSerializeError",
+                "usr": "s:9JoseTools18JsonSerializeErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JsonSerializeError",
+                "printedName": "JoseTools.JsonSerializeError",
+                "usr": "s:9JoseTools18JsonSerializeErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9JoseTools18JsonSerializeErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s9JoseTools18JsonSerializeErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "JoseTools",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9JoseTools18JsonSerializeErrorO",
+        "mangledName": "$s9JoseTools18JsonSerializeErrorO",
+        "moduleName": "JoseTools",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LocalizedError",
+            "printedName": "LocalizedError",
+            "usr": "s:10Foundation14LocalizedErrorP",
+            "mangledName": "$s10Foundation14LocalizedErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -1759,34 +3266,6 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(decryptionPrivateKey:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "JWEDecrypter",
-                "printedName": "JoseTools.JWEDecrypter",
-                "usr": "s:9JoseTools12JWEDecrypterV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "SecKey",
-                "printedName": "Security.SecKey",
-                "usr": "c:@T@SecKeyRef"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:9JoseTools12JWEDecrypterV20decryptionPrivateKeyACSo03SecF3Refa_tKcfc",
-            "mangledName": "$s9JoseTools12JWEDecrypterV20decryptionPrivateKeyACSo03SecF3Refa_tKcfc",
-            "moduleName": "JoseTools",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "throwing": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
             "printedName": "init(jwk:)",
             "children": [
               {
@@ -1807,7 +3286,8 @@
             "mangledName": "$s9JoseTools12JWEDecrypterV3jwkAcA10JsonWebKeyV_tKcfc",
             "moduleName": "JoseTools",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "throwing": true,
             "init_kind": "Designated"
@@ -1845,6 +3325,46 @@
             "declKind": "Constructor",
             "usr": "s:9JoseTools12JWEDecrypterV25jweKeyManagementAlgorithm0d17ContentEncryptionG0017decryptionPrivateE0ACSS_SSSo03SecE3RefatKcfc",
             "mangledName": "$s9JoseTools12JWEDecrypterV25jweKeyManagementAlgorithm0d17ContentEncryptionG0017decryptionPrivateE0ACSS_SSSo03SecE3RefatKcfc",
+            "moduleName": "JoseTools",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(jweKeyManagementAlgorithm:jweContentEncryptionAlgorithm:decryptionPrivateKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "JWEDecrypter",
+                "printedName": "JoseTools.JWEDecrypter",
+                "usr": "s:9JoseTools12JWEDecrypterV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JsonWebKey",
+                "printedName": "JoseTools.JsonWebKey",
+                "usr": "s:9JoseTools10JsonWebKeyV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9JoseTools12JWEDecrypterV25jweKeyManagementAlgorithm0d17ContentEncryptionG0017decryptionPrivateE0ACSS_SSAA07JsonWebE0VtKcfc",
+            "mangledName": "$s9JoseTools12JWEDecrypterV25jweKeyManagementAlgorithm0d17ContentEncryptionG0017decryptionPrivateE0ACSS_SSAA07JsonWebE0VtKcfc",
             "moduleName": "JoseTools",
             "declAttributes": [
               "AccessControl"
@@ -1942,13 +3462,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "CommunicationManager",
-        "printedName": "CommunicationManager",
-        "declKind": "Import",
-        "moduleName": "JoseTools"
       },
       {
         "kind": "TypeDecl",
@@ -2685,18 +4198,18 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "superclassUsr": "s:20CommunicationManager22JsonSerializableObjectC",
+        "superclassUsr": "s:9JoseTools19JsonSerializeObjectC",
         "inheritsConvenienceInitializers": true,
         "superclassNames": [
-          "CommunicationManager.JsonSerializableObject"
+          "JoseTools.JsonSerializeObject"
         ],
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "JsonSerializableProtocol",
-            "printedName": "JsonSerializableProtocol",
-            "usr": "s:20CommunicationManager24JsonSerializableProtocolP",
-            "mangledName": "$s20CommunicationManager24JsonSerializableProtocolP"
+            "name": "JsonSerializeProtocol",
+            "printedName": "JsonSerializeProtocol",
+            "usr": "s:9JoseTools21JsonSerializeProtocolP",
+            "mangledName": "$s9JoseTools21JsonSerializeProtocolP"
           },
           {
             "kind": "Conformance",
@@ -4032,6 +5545,520 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "CoderEncryptProtocol",
+        "printedName": "CoderEncryptProtocol",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "contentType",
+            "printedName": "contentType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JoseTools20CoderEncryptProtocolP11contentTypeSSvp",
+            "mangledName": "$s9JoseTools20CoderEncryptProtocolP11contentTypeSSvp",
+            "moduleName": "JoseTools",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JoseTools20CoderEncryptProtocolP11contentTypeSSvg",
+                "mangledName": "$s9JoseTools20CoderEncryptProtocolP11contentTypeSSvg",
+                "moduleName": "JoseTools",
+                "genericSig": "<τ_0_0 where τ_0_0 : JoseTools.CoderEncryptProtocol>",
+                "sugared_genericSig": "<Self where Self : JoseTools.CoderEncryptProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "encodeRequestBody",
+            "printedName": "encodeRequestBody(requestBody:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequestBody",
+                "printedName": "JoseTools.URLRequestBody",
+                "usr": "s:9JoseTools14URLRequestBodyC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9JoseTools20CoderEncryptProtocolP17encodeRequestBody07requestH010Foundation4DataVAA010URLRequestH0C_tKF",
+            "mangledName": "$s9JoseTools20CoderEncryptProtocolP17encodeRequestBody07requestH010Foundation4DataVAA010URLRequestH0C_tKF",
+            "moduleName": "JoseTools",
+            "genericSig": "<τ_0_0 where τ_0_0 : JoseTools.CoderEncryptProtocol>",
+            "sugared_genericSig": "<Self where Self : JoseTools.CoderEncryptProtocol>",
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "decodeResponseData",
+            "printedName": "decodeResponseData(responseData:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9JoseTools20CoderEncryptProtocolP18decodeResponseData08responseH0yp10Foundation0H0V_tKF",
+            "mangledName": "$s9JoseTools20CoderEncryptProtocolP18decodeResponseData08responseH0yp10Foundation0H0V_tKF",
+            "moduleName": "JoseTools",
+            "genericSig": "<τ_0_0 where τ_0_0 : JoseTools.CoderEncryptProtocol>",
+            "sugared_genericSig": "<Self where Self : JoseTools.CoderEncryptProtocol>",
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:9JoseTools20CoderEncryptProtocolP",
+        "mangledName": "$s9JoseTools20CoderEncryptProtocolP",
+        "moduleName": "JoseTools",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "JsonCodeHelper",
+        "printedName": "JsonCodeHelper",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "encodeAndConvertToJson",
+            "printedName": "encodeAndConvertToJson(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9JoseTools14JsonCodeHelperC018encodeAndConvertToC0y10Foundation4DataVypKFZ",
+            "mangledName": "$s9JoseTools14JsonCodeHelperC018encodeAndConvertToC0y10Foundation4DataVypKFZ",
+            "moduleName": "JoseTools",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "decodeCodeJson",
+            "printedName": "decodeCodeJson(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9JoseTools14JsonCodeHelperC06decodedC0yyp10Foundation4DataVKFZ",
+            "mangledName": "$s9JoseTools14JsonCodeHelperC06decodedC0yyp10Foundation4DataVKFZ",
+            "moduleName": "JoseTools",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9JoseTools14JsonCodeHelperC",
+        "mangledName": "$s9JoseTools14JsonCodeHelperC",
+        "moduleName": "JoseTools",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "JsonSerializeProtocol",
+        "printedName": "JsonSerializeProtocol",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(jsonString:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9JoseTools21JsonSerializeProtocolP10jsonStringxSS_tKcfc",
+            "mangledName": "$s9JoseTools21JsonSerializeProtocolP10jsonStringxSS_tKcfc",
+            "moduleName": "JoseTools",
+            "genericSig": "<τ_0_0 where τ_0_0 : JoseTools.JsonSerializeProtocol>",
+            "sugared_genericSig": "<Self where Self : JoseTools.JsonSerializeProtocol>",
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "toDictionary",
+            "printedName": "toDictionary()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9JoseTools21JsonSerializeProtocolP12toDictionarySDySSypGyKF",
+            "mangledName": "$s9JoseTools21JsonSerializeProtocolP12toDictionarySDySSypGyKF",
+            "moduleName": "JoseTools",
+            "genericSig": "<τ_0_0 where τ_0_0 : JoseTools.JsonSerializeProtocol>",
+            "sugared_genericSig": "<Self where Self : JoseTools.JsonSerializeProtocol>",
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "toJsonString",
+            "printedName": "toJsonString()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9JoseTools21JsonSerializeProtocolP02toC6StringSSyKF",
+            "mangledName": "$s9JoseTools21JsonSerializeProtocolP02toC6StringSSyKF",
+            "moduleName": "JoseTools",
+            "genericSig": "<τ_0_0 where τ_0_0 : JoseTools.JsonSerializeProtocol>",
+            "sugared_genericSig": "<Self where Self : JoseTools.JsonSerializeProtocol>",
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(jsonString:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9JoseTools21JsonSerializeProtocolPA2A0cD6ObjectCRbzrlE10jsonStringxSS_tKcfc",
+            "mangledName": "$s9JoseTools21JsonSerializeProtocolPA2A0cD6ObjectCRbzrlE10jsonStringxSS_tKcfc",
+            "moduleName": "JoseTools",
+            "genericSig": "<τ_0_0 where τ_0_0 : JoseTools.JsonSerializeObject, τ_0_0 : JoseTools.JsonSerializeProtocol>",
+            "sugared_genericSig": "<Self where Self : JoseTools.JsonSerializeObject, Self : JoseTools.JsonSerializeProtocol>",
+            "isFromExtension": true,
+            "throwing": true,
+            "init_kind": "Convenience"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:9JoseTools21JsonSerializeProtocolP",
+        "mangledName": "$s9JoseTools21JsonSerializeProtocolP",
+        "moduleName": "JoseTools",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "JsonSerializeObject",
+        "printedName": "JsonSerializeObject",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "JsonSerializeObject",
+                "printedName": "JoseTools.JsonSerializeObject",
+                "usr": "s:9JoseTools19JsonSerializeObjectC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9JoseTools19JsonSerializeObjectCACycfc",
+            "mangledName": "$s9JoseTools19JsonSerializeObjectCACycfc",
+            "moduleName": "JoseTools",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(dict:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "JsonSerializeObject",
+                "printedName": "JoseTools.JsonSerializeObject",
+                "usr": "s:9JoseTools19JsonSerializeObjectC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9JoseTools19JsonSerializeObjectC4dictACSDySSypG_tKcfc",
+            "mangledName": "$s9JoseTools19JsonSerializeObjectC4dictACSDySSypG_tKcfc",
+            "moduleName": "JoseTools",
+            "declAttributes": [
+              "Convenience",
+              "Required",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Function",
+            "name": "toDictionary",
+            "printedName": "toDictionary()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9JoseTools19JsonSerializeObjectC12toDictionarySDySSypGyKF",
+            "mangledName": "$s9JoseTools19JsonSerializeObjectC12toDictionarySDySSypGyKF",
+            "moduleName": "JoseTools",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "toJsonString",
+            "printedName": "toJsonString()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9JoseTools19JsonSerializeObjectC02toC6StringSSyKF",
+            "mangledName": "$s9JoseTools19JsonSerializeObjectC02toC6StringSSyKF",
+            "moduleName": "JoseTools",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9JoseTools19JsonSerializeObjectC",
+        "mangledName": "$s9JoseTools19JsonSerializeObjectC",
+        "moduleName": "JoseTools",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -4062,13 +6089,6 @@
         "kind": "Import",
         "name": "JOSESwift",
         "printedName": "JOSESwift",
-        "declKind": "Import",
-        "moduleName": "JoseTools"
-      },
-      {
-        "kind": "Import",
-        "name": "CommunicationManager",
-        "printedName": "CommunicationManager",
         "declKind": "Import",
         "moduleName": "JoseTools"
       },
@@ -4473,13 +6493,6 @@
       },
       {
         "kind": "Import",
-        "name": "CommunicationManager",
-        "printedName": "CommunicationManager",
-        "declKind": "Import",
-        "moduleName": "JoseTools"
-      },
-      {
-        "kind": "Import",
         "name": "JOSESwift",
         "printedName": "JOSESwift",
         "declKind": "Import",
@@ -4497,49 +6510,6 @@
         "name": "JWEEncrypter",
         "printedName": "JWEEncrypter",
         "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(encryptionPublicKey:keyId:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "JWEEncrypter",
-                "printedName": "JoseTools.JWEEncrypter",
-                "usr": "s:9JoseTools12JWEEncrypterV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "SecKey",
-                "printedName": "Security.SecKey",
-                "usr": "c:@T@SecKeyRef"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:9JoseTools12JWEEncrypterV19encryptionPublicKey5keyIdACSo03SecF3Refa_SSSgtKcfc",
-            "mangledName": "$s9JoseTools12JWEEncrypterV19encryptionPublicKey5keyIdACSo03SecF3Refa_SSSgtKcfc",
-            "moduleName": "JoseTools",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "throwing": true,
-            "init_kind": "Designated"
-          },
           {
             "kind": "Constructor",
             "name": "init",
@@ -4563,7 +6533,8 @@
             "mangledName": "$s9JoseTools12JWEEncrypterV3jwkAcA10JsonWebKeyV_tKcfc",
             "moduleName": "JoseTools",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "throwing": true,
             "init_kind": "Designated"
@@ -4616,6 +6587,61 @@
             "declKind": "Constructor",
             "usr": "s:9JoseTools12JWEEncrypterV25jweKeyManagementAlgorithm0d17ContentEncryptionG0016encryptionPublicE05keyIdACSS_SSSo03SecE3RefaSSSgtKcfc",
             "mangledName": "$s9JoseTools12JWEEncrypterV25jweKeyManagementAlgorithm0d17ContentEncryptionG0016encryptionPublicE05keyIdACSS_SSSo03SecE3RefaSSSgtKcfc",
+            "moduleName": "JoseTools",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(jweKeyManagementAlgorithm:jweContentEncryptionAlgorithm:encryptionPublicKey:keyId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "JWEEncrypter",
+                "printedName": "JoseTools.JWEEncrypter",
+                "usr": "s:9JoseTools12JWEEncrypterV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JsonWebKey",
+                "printedName": "JoseTools.JsonWebKey",
+                "usr": "s:9JoseTools10JsonWebKeyV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9JoseTools12JWEEncrypterV25jweKeyManagementAlgorithm0d17ContentEncryptionG0016encryptionPublicE05keyIdACSS_SSAA07JsonWebE0VSSSgtKcfc",
+            "mangledName": "$s9JoseTools12JWEEncrypterV25jweKeyManagementAlgorithm0d17ContentEncryptionG0016encryptionPublicE05keyIdACSS_SSAA07JsonWebE0VSSSgtKcfc",
             "moduleName": "JoseTools",
             "declAttributes": [
               "AccessControl"
@@ -4709,191 +6735,6 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "JoseTools",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CommunicationManager",
-        "printedName": "CommunicationManager",
-        "declKind": "Import",
-        "moduleName": "JoseTools"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "JOSECoder",
-        "printedName": "JOSECoder",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "contentType",
-            "printedName": "contentType",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:9JoseTools9JOSECoderC11contentTypeSSvp",
-            "mangledName": "$s9JoseTools9JOSECoderC11contentTypeSSvp",
-            "moduleName": "JoseTools",
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9JoseTools9JOSECoderC11contentTypeSSvg",
-                "mangledName": "$s9JoseTools9JOSECoderC11contentTypeSSvg",
-                "moduleName": "JoseTools",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(with:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "JOSECoder",
-                "printedName": "JoseTools.JOSECoder",
-                "usr": "s:9JoseTools9JOSECoderC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "JOSEHelper",
-                "printedName": "JoseTools.JOSEHelper",
-                "usr": "s:9JoseTools10JOSEHelperV"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:9JoseTools9JOSECoderC4withAcA10JOSEHelperV_tcfc",
-            "mangledName": "$s9JoseTools9JOSECoderC4withAcA10JOSEHelperV_tcfc",
-            "moduleName": "JoseTools",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "encodeRequestBody",
-            "printedName": "encodeRequestBody(requestBody:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Data",
-                "printedName": "Foundation.Data",
-                "usr": "s:10Foundation4DataV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "RequestBody",
-                "printedName": "CommunicationManager.RequestBody",
-                "usr": "s:20CommunicationManager11RequestBodyC"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:9JoseTools9JOSECoderC17encodeRequestBody07requestF010Foundation4DataV20CommunicationManager0eF0C_tKF",
-            "mangledName": "$s9JoseTools9JOSECoderC17encodeRequestBody07requestF010Foundation4DataV20CommunicationManager0eF0C_tKF",
-            "moduleName": "JoseTools",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "decodeResponseData",
-            "printedName": "decodeResponseData(responseData:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ProtocolComposition",
-                "printedName": "Any"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Data",
-                "printedName": "Foundation.Data",
-                "usr": "s:10Foundation4DataV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:9JoseTools9JOSECoderC18decodeResponseData08responseF0yp10Foundation0F0V_tKF",
-            "mangledName": "$s9JoseTools9JOSECoderC18decodeResponseData08responseF0yp10Foundation0F0V_tKF",
-            "moduleName": "JoseTools",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:9JoseTools9JOSECoderC",
-        "mangledName": "$s9JoseTools9JOSECoderC",
-        "moduleName": "JoseTools",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CoderProtocol",
-            "printedName": "CoderProtocol",
-            "usr": "s:20CommunicationManager13CoderProtocolP",
-            "mangledName": "$s20CommunicationManager13CoderProtocolP"
           }
         ]
       },
@@ -6080,6 +7921,88 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "Mirror",
+        "printedName": "Mirror",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "convertToDictionary",
+            "printedName": "convertToDictionary()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:s6MirrorV9JoseToolsE19convertToDictionarySDySSypGyKF",
+            "mangledName": "$ss6MirrorV9JoseToolsE19convertToDictionarySDySSypGyKF",
+            "moduleName": "JoseTools",
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:s6MirrorV",
+        "mangledName": "$ss6MirrorV",
+        "moduleName": "Swift",
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "JWEHeader",
         "printedName": "JWEHeader",
         "children": [
@@ -6292,17 +8215,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "ExpressibleAsECPrivateKeyComponents",
-            "printedName": "ExpressibleAsECPrivateKeyComponents",
-            "usr": "s:9JOSESwift35ExpressibleAsECPrivateKeyComponentsP",
-            "mangledName": "$s9JOSESwift35ExpressibleAsECPrivateKeyComponentsP"
-          },
-          {
-            "kind": "Conformance",
             "name": "ExpressibleAsRSAPublicKeyComponents",
             "printedName": "ExpressibleAsRSAPublicKeyComponents",
             "usr": "s:9JOSESwift35ExpressibleAsRSAPublicKeyComponentsP",
             "mangledName": "$s9JOSESwift35ExpressibleAsRSAPublicKeyComponentsP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleAsECPrivateKeyComponents",
+            "printedName": "ExpressibleAsECPrivateKeyComponents",
+            "usr": "s:9JOSESwift35ExpressibleAsECPrivateKeyComponentsP",
+            "mangledName": "$s9JOSESwift35ExpressibleAsECPrivateKeyComponentsP"
           },
           {
             "kind": "Conformance",
@@ -6318,240 +8241,289 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/JWE\/JWEHelper.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/JWE\/JWEHelper.swift",
       "kind": "StringLiteral",
-      "offset": 206,
+      "offset": 225,
       "length": 14,
       "value": "\"RSA-OAEP-256\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/JWE\/JWEHelper.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/JWE\/JWEHelper.swift",
       "kind": "StringLiteral",
-      "offset": 288,
+      "offset": 307,
       "length": 15,
       "value": "\"A128CBC-HS256\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/JWK\/JsonWebKeySet.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/RequestHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 1303,
+      "length": 14,
+      "value": "\"Content-type\""
+    },
+    {
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/RequestHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 1367,
+      "length": 33,
+      "value": "\"application\/json; charset=UTF-8\""
+    },
+    {
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/RequestHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 1456,
+      "length": 35,
+      "value": "\"application\/x-www-form-urlencoded\""
+    },
+    {
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/RequestHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 1541,
+      "length": 41,
+      "value": "\"application\/jwk-set+json; charset=UTF-8\""
+    },
+    {
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/RequestHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 1631,
+      "length": 32,
+      "value": "\"application\/jwt; charset=UTF-8\""
+    },
+    {
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/RequestHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 1719,
+      "length": 27,
+      "value": "\"text\/plain; charset=UTF-8\""
+    },
+    {
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/JWK\/JsonWebKeySet.swift",
       "kind": "Array",
-      "offset": 234,
+      "offset": 206,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/JWT\/JWTClaims.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/JWT\/JWTClaims.swift",
       "kind": "Dictionary",
-      "offset": 216,
+      "offset": 185,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/JWT\/JWTClaims.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/JWT\/JWTClaims.swift",
       "kind": "StringLiteral",
-      "offset": 4353,
+      "offset": 4322,
       "length": 5,
       "value": "\"iss\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/JWT\/JWTClaims.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/JWT\/JWTClaims.swift",
       "kind": "StringLiteral",
-      "offset": 4400,
+      "offset": 4369,
       "length": 5,
       "value": "\"sub\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/JWT\/JWTClaims.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/JWT\/JWTClaims.swift",
       "kind": "StringLiteral",
-      "offset": 4448,
+      "offset": 4417,
       "length": 5,
       "value": "\"aud\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/JWT\/JWTClaims.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/JWT\/JWTClaims.swift",
       "kind": "StringLiteral",
-      "offset": 4503,
+      "offset": 4472,
       "length": 5,
       "value": "\"exp\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/JWT\/JWTClaims.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/JWT\/JWTClaims.swift",
       "kind": "StringLiteral",
-      "offset": 4553,
+      "offset": 4522,
       "length": 5,
       "value": "\"nbf\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/JWT\/JWTClaims.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/JWT\/JWTClaims.swift",
       "kind": "StringLiteral",
-      "offset": 4602,
+      "offset": 4571,
       "length": 5,
       "value": "\"iat\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/JWT\/JWTClaims.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/JWT\/JWTClaims.swift",
       "kind": "StringLiteral",
-      "offset": 4648,
+      "offset": 4617,
       "length": 5,
       "value": "\"jti\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/JWT\/JWTClaims.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/JWT\/JWTClaims.swift",
       "kind": "StringLiteral",
-      "offset": 4714,
+      "offset": 4683,
       "length": 5,
       "value": "\"typ\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/Utils.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/Utils.swift",
       "kind": "StringLiteral",
       "offset": 174,
       "length": 5,
       "value": "\"use\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/Utils.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/Utils.swift",
       "kind": "StringLiteral",
       "offset": 216,
       "length": 5,
       "value": "\"kty\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/Utils.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/Utils.swift",
       "kind": "StringLiteral",
       "offset": 258,
       "length": 5,
       "value": "\"kid\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/Utils.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/Utils.swift",
       "kind": "StringLiteral",
       "offset": 300,
       "length": 5,
       "value": "\"alg\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/Utils.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/Utils.swift",
       "kind": "StringLiteral",
       "offset": 340,
       "length": 3,
       "value": "\"e\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/Utils.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/Utils.swift",
       "kind": "StringLiteral",
       "offset": 395,
       "length": 5,
       "value": "\"sig\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/Utils.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/Utils.swift",
       "kind": "StringLiteral",
       "offset": 420,
       "length": 5,
       "value": "\"enc\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/Utils.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/Utils.swift",
       "kind": "StringLiteral",
       "offset": 449,
       "length": 9,
       "value": "\"sig_enc\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/Utils.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/Utils.swift",
       "kind": "StringLiteral",
       "offset": 512,
       "length": 5,
       "value": "\"RSA\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/Utils.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/Utils.swift",
       "kind": "StringLiteral",
       "offset": 532,
       "length": 4,
       "value": "\"EC\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/JWS\/JWSHelper.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/Utils.swift",
+      "kind": "Dictionary",
+      "offset": 3539,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/JWS\/JWSHelper.swift",
       "kind": "StringLiteral",
       "offset": 193,
       "length": 7,
       "value": "\"RS256\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/JsonWebStructure.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/JsonWebStructure.swift",
       "kind": "StringLiteral",
-      "offset": 241,
+      "offset": 213,
       "length": 3,
       "value": "\".\""
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/JsonWebStructure.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/JsonWebStructure.swift",
       "kind": "IntegerLiteral",
-      "offset": 291,
+      "offset": 263,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/JsonWebStructure.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/JsonWebStructure.swift",
       "kind": "IntegerLiteral",
-      "offset": 335,
+      "offset": 307,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/JsonWebStructure.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/JsonWebStructure.swift",
       "kind": "IntegerLiteral",
-      "offset": 381,
+      "offset": 353,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/JsonWebStructure.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/JsonWebStructure.swift",
       "kind": "IntegerLiteral",
-      "offset": 429,
+      "offset": 401,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/JsonWebStructure.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/JsonWebStructure.swift",
       "kind": "IntegerLiteral",
-      "offset": 478,
+      "offset": 450,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/JsonWebStructure.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/JsonWebStructure.swift",
       "kind": "IntegerLiteral",
-      "offset": 535,
+      "offset": 507,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/JsonWebStructure.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/JsonWebStructure.swift",
       "kind": "IntegerLiteral",
-      "offset": 582,
+      "offset": 554,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/JsonWebStructure.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/JsonWebStructure.swift",
       "kind": "IntegerLiteral",
-      "offset": 636,
+      "offset": 608,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/JWE\/JWEEncrypter.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/JWE\/JWEEncrypter.swift",
       "kind": "BooleanLiteral",
-      "offset": 2111,
+      "offset": 2715,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/bhavyachauhan\/Documents\/Ping_iOS\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/JWE\/JWEEncrypter.swift",
+      "filePath": "\/Users\/kdevipriya\/dev\/TestNew\/pingone-wallet-ios\/PingOneWallet\/JoseTools\/JWE\/JWEEncrypter.swift",
       "kind": "BooleanLiteral",
-      "offset": 2363,
+      "offset": 2967,
       "length": 5,
       "value": "false"
     }
