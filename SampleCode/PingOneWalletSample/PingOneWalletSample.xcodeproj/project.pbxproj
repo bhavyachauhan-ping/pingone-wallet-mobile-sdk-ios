@@ -7,14 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1C1C27C42D074F6C007FAC44 /* AnyCoder.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C2A5DA22C0A6B68009C98F1 /* AnyCoder.xcframework */; };
-		1C1C27C52D074F6C007FAC44 /* AnyCoder.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1C2A5DA22C0A6B68009C98F1 /* AnyCoder.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		1C1C27C62D074F6C007FAC44 /* CommunicationManager.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C73833929C82CFB0091D080 /* CommunicationManager.xcframework */; };
-		1C1C27C72D074F6C007FAC44 /* CommunicationManager.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1C73833929C82CFB0091D080 /* CommunicationManager.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		1C1C27CA2D074F6C007FAC44 /* DIDSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C73833E29C82CFC0091D080 /* DIDSDK.xcframework */; };
-		1C1C27CB2D074F6C007FAC44 /* DIDSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1C73833E29C82CFC0091D080 /* DIDSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		1C1C27D22D074F6C007FAC44 /* PingOneWallet.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C73833C29C82CFC0091D080 /* PingOneWallet.xcframework */; };
-		1C1C27D32D074F6C007FAC44 /* PingOneWallet.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1C73833C29C82CFC0091D080 /* PingOneWallet.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1C1C27D82D0750C2007FAC44 /* IssuerDetailsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C1C27D72D0750C2007FAC44 /* IssuerDetailsView.xib */; };
 		1C2A5D762C0A67F1009C98F1 /* CredentialListItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C2A5D3D2C0A67F1009C98F1 /* CredentialListItemCell.xib */; };
 		1C2A5D772C0A67F1009C98F1 /* ItemPickerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C2A5D3E2C0A67F1009C98F1 /* ItemPickerTableViewCell.xib */; };
@@ -66,16 +58,24 @@
 		1C92DFB52CF2CEFE00AE2949 /* IssuerDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C92DFB12CF2CEFE00AE2949 /* IssuerDetailsView.swift */; };
 		1C92DFB72CF2CF1700AE2949 /* AppInfoUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C92DFB62CF2CF1700AE2949 /* AppInfoUtils.swift */; };
 		1CB650B729C82E01008F25F7 /* SVGKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1CB650B629C82E01008F25F7 /* SVGKit */; };
-		72F04C5C2E5DB52D00238971 /* CryptoTools.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72F04C522E5DB4DF00238971 /* CryptoTools.xcframework */; };
-		72F04C5D2E5DB52D00238971 /* CryptoTools.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 72F04C522E5DB4DF00238971 /* CryptoTools.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		72F04C5E2E5DB53A00238971 /* JOSESwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72F04C532E5DB4DF00238971 /* JOSESwift.xcframework */; };
-		72F04C5F2E5DB53A00238971 /* JOSESwift.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 72F04C532E5DB4DF00238971 /* JOSESwift.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		72F04C602E5DB54F00238971 /* JoseTools.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72F04C542E5DB4DF00238971 /* JoseTools.xcframework */; };
-		72F04C612E5DB54F00238971 /* JoseTools.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 72F04C542E5DB4DF00238971 /* JoseTools.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		72F04C622E5DB54F00238971 /* libsecp256k1.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72F04C552E5DB4DF00238971 /* libsecp256k1.xcframework */; };
-		72F04C632E5DB54F00238971 /* libsecp256k1.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 72F04C552E5DB4DF00238971 /* libsecp256k1.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		72F04C642E5DB54F00238971 /* secp256k1Wrapper.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72F04C562E5DB4DF00238971 /* secp256k1Wrapper.xcframework */; };
-		72F04C652E5DB54F00238971 /* secp256k1Wrapper.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 72F04C562E5DB4DF00238971 /* secp256k1Wrapper.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		72F04C9D2E5E389B00238971 /* AnyCoder.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72F04C922E5E388A00238971 /* AnyCoder.xcframework */; };
+		72F04C9E2E5E389B00238971 /* AnyCoder.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 72F04C922E5E388A00238971 /* AnyCoder.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		72F04C9F2E5E389B00238971 /* CommunicationManager.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72F04C932E5E388A00238971 /* CommunicationManager.xcframework */; };
+		72F04CA02E5E389B00238971 /* CommunicationManager.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 72F04C932E5E388A00238971 /* CommunicationManager.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		72F04CA12E5E389B00238971 /* CryptoTools.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72F04C972E5E388A00238971 /* CryptoTools.xcframework */; };
+		72F04CA22E5E389B00238971 /* CryptoTools.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 72F04C972E5E388A00238971 /* CryptoTools.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		72F04CA32E5E389B00238971 /* DIDSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72F04C942E5E388A00238971 /* DIDSDK.xcframework */; };
+		72F04CA42E5E389B00238971 /* DIDSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 72F04C942E5E388A00238971 /* DIDSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		72F04CA52E5E389B00238971 /* JOSESwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72F04C982E5E388A00238971 /* JOSESwift.xcframework */; };
+		72F04CA62E5E389B00238971 /* JOSESwift.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 72F04C982E5E388A00238971 /* JOSESwift.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		72F04CA72E5E389B00238971 /* JoseTools.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72F04C992E5E388A00238971 /* JoseTools.xcframework */; };
+		72F04CA82E5E389B00238971 /* JoseTools.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 72F04C992E5E388A00238971 /* JoseTools.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		72F04CA92E5E389B00238971 /* libsecp256k1.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72F04C9A2E5E388A00238971 /* libsecp256k1.xcframework */; };
+		72F04CAA2E5E389B00238971 /* libsecp256k1.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 72F04C9A2E5E388A00238971 /* libsecp256k1.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		72F04CAB2E5E389B00238971 /* PingOneWallet.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72F04C952E5E388A00238971 /* PingOneWallet.xcframework */; };
+		72F04CAC2E5E389B00238971 /* PingOneWallet.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 72F04C952E5E388A00238971 /* PingOneWallet.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		72F04CAD2E5E389B00238971 /* secp256k1Wrapper.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72F04C9B2E5E388A00238971 /* secp256k1Wrapper.xcframework */; };
+		72F04CAE2E5E389B00238971 /* secp256k1Wrapper.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 72F04C9B2E5E388A00238971 /* secp256k1Wrapper.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,15 +102,15 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				1C1C27CB2D074F6C007FAC44 /* DIDSDK.xcframework in Embed Frameworks */,
-				72F04C612E5DB54F00238971 /* JoseTools.xcframework in Embed Frameworks */,
-				72F04C632E5DB54F00238971 /* libsecp256k1.xcframework in Embed Frameworks */,
-				1C1C27D32D074F6C007FAC44 /* PingOneWallet.xcframework in Embed Frameworks */,
-				1C1C27C72D074F6C007FAC44 /* CommunicationManager.xcframework in Embed Frameworks */,
-				1C1C27C52D074F6C007FAC44 /* AnyCoder.xcframework in Embed Frameworks */,
-				72F04C5F2E5DB53A00238971 /* JOSESwift.xcframework in Embed Frameworks */,
-				72F04C5D2E5DB52D00238971 /* CryptoTools.xcframework in Embed Frameworks */,
-				72F04C652E5DB54F00238971 /* secp256k1Wrapper.xcframework in Embed Frameworks */,
+				72F04CA42E5E389B00238971 /* DIDSDK.xcframework in Embed Frameworks */,
+				72F04CAC2E5E389B00238971 /* PingOneWallet.xcframework in Embed Frameworks */,
+				72F04CAA2E5E389B00238971 /* libsecp256k1.xcframework in Embed Frameworks */,
+				72F04CA62E5E389B00238971 /* JOSESwift.xcframework in Embed Frameworks */,
+				72F04CA82E5E389B00238971 /* JoseTools.xcframework in Embed Frameworks */,
+				72F04CA02E5E389B00238971 /* CommunicationManager.xcframework in Embed Frameworks */,
+				72F04CA22E5E389B00238971 /* CryptoTools.xcframework in Embed Frameworks */,
+				72F04C9E2E5E389B00238971 /* AnyCoder.xcframework in Embed Frameworks */,
+				72F04CAE2E5E389B00238971 /* secp256k1Wrapper.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -160,7 +160,6 @@
 		1C2A5D722C0A67F1009C98F1 /* EventObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventObserver.swift; sourceTree = "<group>"; };
 		1C2A5D732C0A67F1009C98F1 /* EventObserverUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventObserverUtils.swift; sourceTree = "<group>"; };
 		1C2A5D752C0A67F1009C98F1 /* PingOneWalletSample.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = PingOneWalletSample.entitlements; sourceTree = "<group>"; };
-		1C2A5DA22C0A6B68009C98F1 /* AnyCoder.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AnyCoder.xcframework; path = ../../SDK/AnyCoder.xcframework; sourceTree = "<group>"; };
 		1C7382C229C82B710091D080 /* PingOneWalletSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PingOneWalletSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C7382C529C82B710091D080 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C7382CE29C82B720091D080 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -171,17 +170,18 @@
 		1C7382E629C82B730091D080 /* PingOneWalletSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PingOneWalletSampleUITests.swift; sourceTree = "<group>"; };
 		1C7382E829C82B730091D080 /* PingOneWalletSampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PingOneWalletSampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1C7382F729C82BEB0091D080 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1C73833929C82CFB0091D080 /* CommunicationManager.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CommunicationManager.xcframework; path = ../../SDK/CommunicationManager.xcframework; sourceTree = "<group>"; };
-		1C73833C29C82CFC0091D080 /* PingOneWallet.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = PingOneWallet.xcframework; path = ../../SDK/PingOneWallet.xcframework; sourceTree = "<group>"; };
-		1C73833E29C82CFC0091D080 /* DIDSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = DIDSDK.xcframework; path = ../../SDK/DIDSDK.xcframework; sourceTree = "<group>"; };
 		1C92DFB12CF2CEFE00AE2949 /* IssuerDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssuerDetailsView.swift; sourceTree = "<group>"; };
 		1C92DFB22CF2CEFE00AE2949 /* UIImageView + LoadFrom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView + LoadFrom.swift"; sourceTree = "<group>"; };
 		1C92DFB62CF2CF1700AE2949 /* AppInfoUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfoUtils.swift; sourceTree = "<group>"; };
-		72F04C522E5DB4DF00238971 /* CryptoTools.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = CryptoTools.xcframework; sourceTree = "<group>"; };
-		72F04C532E5DB4DF00238971 /* JOSESwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = JOSESwift.xcframework; sourceTree = "<group>"; };
-		72F04C542E5DB4DF00238971 /* JoseTools.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = JoseTools.xcframework; sourceTree = "<group>"; };
-		72F04C552E5DB4DF00238971 /* libsecp256k1.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = libsecp256k1.xcframework; sourceTree = "<group>"; };
-		72F04C562E5DB4DF00238971 /* secp256k1Wrapper.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = secp256k1Wrapper.xcframework; sourceTree = "<group>"; };
+		72F04C922E5E388A00238971 /* AnyCoder.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AnyCoder.xcframework; sourceTree = "<group>"; };
+		72F04C932E5E388A00238971 /* CommunicationManager.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = CommunicationManager.xcframework; sourceTree = "<group>"; };
+		72F04C942E5E388A00238971 /* DIDSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = DIDSDK.xcframework; sourceTree = "<group>"; };
+		72F04C952E5E388A00238971 /* PingOneWallet.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = PingOneWallet.xcframework; sourceTree = "<group>"; };
+		72F04C972E5E388A00238971 /* CryptoTools.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = CryptoTools.xcframework; sourceTree = "<group>"; };
+		72F04C982E5E388A00238971 /* JOSESwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = JOSESwift.xcframework; sourceTree = "<group>"; };
+		72F04C992E5E388A00238971 /* JoseTools.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = JoseTools.xcframework; sourceTree = "<group>"; };
+		72F04C9A2E5E388A00238971 /* libsecp256k1.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = libsecp256k1.xcframework; sourceTree = "<group>"; };
+		72F04C9B2E5E388A00238971 /* secp256k1Wrapper.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = secp256k1Wrapper.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,15 +189,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C1C27D22D074F6C007FAC44 /* PingOneWallet.xcframework in Frameworks */,
-				72F04C622E5DB54F00238971 /* libsecp256k1.xcframework in Frameworks */,
-				1C1C27CA2D074F6C007FAC44 /* DIDSDK.xcframework in Frameworks */,
-				1C1C27C42D074F6C007FAC44 /* AnyCoder.xcframework in Frameworks */,
-				1C1C27C62D074F6C007FAC44 /* CommunicationManager.xcframework in Frameworks */,
-				72F04C5E2E5DB53A00238971 /* JOSESwift.xcframework in Frameworks */,
-				72F04C642E5DB54F00238971 /* secp256k1Wrapper.xcframework in Frameworks */,
-				72F04C5C2E5DB52D00238971 /* CryptoTools.xcframework in Frameworks */,
-				72F04C602E5DB54F00238971 /* JoseTools.xcframework in Frameworks */,
+				72F04CAB2E5E389B00238971 /* PingOneWallet.xcframework in Frameworks */,
+				72F04CA12E5E389B00238971 /* CryptoTools.xcframework in Frameworks */,
+				72F04CA72E5E389B00238971 /* JoseTools.xcframework in Frameworks */,
+				72F04CA92E5E389B00238971 /* libsecp256k1.xcframework in Frameworks */,
+				72F04CA32E5E389B00238971 /* DIDSDK.xcframework in Frameworks */,
+				72F04C9D2E5E389B00238971 /* AnyCoder.xcframework in Frameworks */,
+				72F04CAD2E5E389B00238971 /* secp256k1Wrapper.xcframework in Frameworks */,
+				72F04C9F2E5E389B00238971 /* CommunicationManager.xcframework in Frameworks */,
+				72F04CA52E5E389B00238971 /* JOSESwift.xcframework in Frameworks */,
 				1CB650B729C82E01008F25F7 /* SVGKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,11 +419,8 @@
 		1C73833729C82CFB0091D080 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				72F04C512E5DB40400238971 /* Common */,
-				1C2A5DA22C0A6B68009C98F1 /* AnyCoder.xcframework */,
-				1C73833929C82CFB0091D080 /* CommunicationManager.xcframework */,
-				1C73833E29C82CFC0091D080 /* DIDSDK.xcframework */,
-				1C73833C29C82CFC0091D080 /* PingOneWallet.xcframework */,
+				72F04C9C2E5E388A00238971 /* Common */,
+				72F04C962E5E388A00238971 /* Wallet */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -445,16 +442,29 @@
 			name = "Recovered References";
 			sourceTree = "<group>";
 		};
-		72F04C512E5DB40400238971 /* Common */ = {
+		72F04C962E5E388A00238971 /* Wallet */ = {
 			isa = PBXGroup;
 			children = (
-				72F04C522E5DB4DF00238971 /* CryptoTools.xcframework */,
-				72F04C532E5DB4DF00238971 /* JOSESwift.xcframework */,
-				72F04C542E5DB4DF00238971 /* JoseTools.xcframework */,
-				72F04C552E5DB4DF00238971 /* libsecp256k1.xcframework */,
-				72F04C562E5DB4DF00238971 /* secp256k1Wrapper.xcframework */,
+				72F04C922E5E388A00238971 /* AnyCoder.xcframework */,
+				72F04C932E5E388A00238971 /* CommunicationManager.xcframework */,
+				72F04C942E5E388A00238971 /* DIDSDK.xcframework */,
+				72F04C952E5E388A00238971 /* PingOneWallet.xcframework */,
 			);
-			path = Common;
+			name = Wallet;
+			path = ../../SDK/Wallet;
+			sourceTree = "<group>";
+		};
+		72F04C9C2E5E388A00238971 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				72F04C972E5E388A00238971 /* CryptoTools.xcframework */,
+				72F04C982E5E388A00238971 /* JOSESwift.xcframework */,
+				72F04C992E5E388A00238971 /* JoseTools.xcframework */,
+				72F04C9A2E5E388A00238971 /* libsecp256k1.xcframework */,
+				72F04C9B2E5E388A00238971 /* secp256k1Wrapper.xcframework */,
+			);
+			name = Common;
+			path = ../../SDK/Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
